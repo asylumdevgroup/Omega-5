@@ -1,0 +1,11 @@
+#Order of preferred mod names for item recipe results.
+#Empty list means that first item available from specific tag is chosen.
+#First mod name has the highest priority.
+#Add "jaopca" to ignore all tag recipes.
+preferModCompat = []
+#Disable Ore Generation
+disableOres = false
+#A blacklist for recipe compatibility with other mods.
+#Put names of recipe types you don't want them to work with Flux machines (like "minecraft:smelting").
+blacklistCompatRecipes = []
+

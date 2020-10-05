@@ -73,12 +73,12 @@
 		# The Minecraft window title.
 		# The Minecraft version is provided as an argument.
 		# Default: Minecraft* %s
-		title = "ADG Omega 5 %s"
+		title = "ADG Omega 5"
 		# The Minecraft window title.
 		# The Minecraft version and current activity are provided as arguments.
 		# For example: "RandomPatches - %2$s"
 		# Default: Minecraft* %s - %s
-		titleWithActivity = "ADG Omega 5 %s - %s"
+		titleWithActivity = "ADG Omega 5 - %s"
 
 # Options related to boats.
 [boats]

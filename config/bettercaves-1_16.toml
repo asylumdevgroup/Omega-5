@@ -222,7 +222,7 @@
 			# Percent chance of caverns spawning in a given region.
 			# Default: caverns spawn in 25% of regions.
 			#Range: 0.0 ~ 100.0
-			"Cavern Spawn Chance" = 25.0
+			"Cavern Spawn Chance" = 10.0
 			# Determines how large cavern regions are. This controls the average size of caverns.
 			# Accepted values: Small, Medium, Large, ExtraLarge, Custom
 			# Default: Small (recommended).

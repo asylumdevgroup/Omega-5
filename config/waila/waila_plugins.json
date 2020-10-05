@@ -2,21 +2,32 @@
   "minecraft": {
     "crop_progress": true,
     "comparator": true,
-    "hide_infestations": true,
     "display_furnace_contents": true,
+    "hide_infestations": true,
     "jukebox": true,
     "lever": true,
     "spawner_type": true,
     "redstone": true,
     "repeater": true
   },
+  "botanypots": {
+    "show_progress": true,
+    "show_time": true,
+    "show_crop": true,
+    "show_soil": true,
+    "show_debug": false
+  },
+  "fluidtank": {
+    "fluidtank.waila.tank_info": true,
+    "fluidtank.waila.short_info": true
+  },
   "harvestability": {
     "unharvestableonly": false,
     "toolrequiredonly": true,
     "harvestlevel.sneakingonly": false,
     "currentlyharvestable.sneakingonly": false,
-    "shearability.sneakingonly": false,
     "harvestlevelnum.sneakingonly": false,
+    "shearability.sneakingonly": false,
     "harvestlevel": true,
     "minimal": false,
     "effectivetool.sneakingonly": false,
@@ -45,8 +56,8 @@
   },
   "waila": {
     "show_registry": false,
-    "show_entity_hp": true,
     "show_states": false,
+    "show_entity_hp": true,
     "show_entities": true
   }
 }

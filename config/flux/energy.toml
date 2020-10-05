@@ -1,0 +1,25 @@
+#Base energy generation for Flux Generator
+#Range: > 0
+fluxGen = 40
+#Energy usage for basic machines (Grinding Mill, Washer, etc.)
+#Range: 1 ~ 1000
+basicMachine = 40
+#Energy usage for Digger
+#Range: 1 ~ 1000
+digger = 200
+#Energy usage for Farmer
+#Range: 1 ~ 1000
+farmer = 100
+#Energy usage for Butcher
+#Range: 1 ~ 1000
+butcher = 700
+#Energy usage for Mob Pounder
+#Range: 1 ~ 1000
+mobPounder = 1000
+#Energy usage for Item Absorber
+#Range: 1 ~ 1000
+itemAbsorber = 100
+#Energy usage for Online Market
+#Range: 1 ~ 1000
+onlineMarket = 200
+
