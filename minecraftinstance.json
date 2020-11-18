@@ -40,10 +40,10 @@
   "modpackOverrides": null,
   "isMemoryOverride": false,
   "allocatedMemory": 6144,
-  "guid": "4d68c1e6-bd8f-4125-9641-91f0c41f248a",
+  "guid": "63b6f3eb-858c-4a65-9382-e26a89b9605c",
   "gameTypeID": 432,
-  "installPath": "F:\\Curse\\Minecraft\\Instances\\Omega 5 1.16.4\\",
-  "name": "Omega 5 1.16.4",
+  "installPath": "F:\\Curse\\Minecraft\\Instances\\Omega-5\\",
+  "name": "Omega-5",
   "cachedScans": [],
   "isValid": true,
   "lastPreviousMatchUpdate": "0001-01-01T00:00:00",
@@ -67,7 +67,7 @@
     "LastSyncDate": "0001-01-01T00:00:00"
   },
   "preferenceShowAddOnInfo": true,
-  "installDate": "2020-11-18T21:05:55.7513896Z",
+  "installDate": "2020-11-18T21:18:25.3474396Z",
   "installedAddons": [],
   "isMigrated": false,
   "preferenceUploadProfile": false
