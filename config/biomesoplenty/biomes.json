@@ -12,9 +12,6 @@
     "biomesoplenty:boreal_forest": {
       "weight": 7
     },
-    "biomesoplenty:brushland": {
-      "weight": 5
-    },
     "biomesoplenty:chaparral": {
       "weight": 5
     },
@@ -32,6 +29,9 @@
     },
     "biomesoplenty:dead_forest": {
       "weight": 2
+    },
+    "biomesoplenty:dryland": {
+      "weight": 1
     },
     "biomesoplenty:floodplain": {
       "weight": 5
@@ -53,6 +53,9 @@
     },
     "biomesoplenty:lavender_field": {
       "weight": 5
+    },
+    "biomesoplenty:lush_desert": {
+      "weight": 1
     },
     "biomesoplenty:lush_grassland": {
       "weight": 7

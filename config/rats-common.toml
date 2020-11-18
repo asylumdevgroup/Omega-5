@@ -43,13 +43,8 @@
 	"Black Death Max Health" = 400.0
 	#True if loot from rats can spawn in chests
 	"Add Loot" = true
-	#Ratlantis Dimension ID
-	#Range: > -2147483648
-	"Ratlantis Dimension ID" = -8
 	#True if garbage heaps can spawn in villages
 	"Village Garbage Heap" = true
-	#True if Ratlantis dimension is disabled - alternative methods of getting resources will be provided. WARNING: Leave the dimension and restart the game before changing this. You must be fun at parties.
-	"Disable Ratlantis" = false
 	#How much kRF (1000 RF) a rat with a basic energy transfer upgrade can transport at a time.
 	#Range: > 1
 	"Rat RF Transfer Rate Basic (kRF)" = 100
@@ -127,9 +122,6 @@
 	#Rats will conduct expensive CPU operations like looking for crops or chests, once every this number of ticks(with added standard deviation for servers)
 	#Range: 1 ~ 10000
 	"Rat Upgrade Delay" = 100
-	#What Dimension ID you are teleported to upon leaving Ratlantis
-	#Range: > -2147483648
-	"Ratlantis Portal Exit Dimension ID" = 0
 	#True if rats can only spawn in the Overworld(0) dimension.
 	"Rats Spawn In Overworld Only" = false
 	#Largest possible radius for tamed rats conducting their searches for items, harvests, etc.
