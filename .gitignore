@@ -1,0 +1,14 @@
+#Binaries
+tools/TwitchExportBuilder
+tools/TwitchExportBuilder.exe
+tools/ChangelogGenerator.jar
+tools/ModpackDownloader.jar
+
+#Local Files
+*.json
+*.zip
+!.build.json
+logs/
+
+#Personal Files
+secrets.ps1
