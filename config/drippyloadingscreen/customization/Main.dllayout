@@ -1,0 +1,44 @@
+type = hud
+
+customization-meta {
+  backgroundimage = resources/mainmenu/bg.png
+  renderorder = foreground
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  orientation = mid-centered
+  x = 0
+  action = editprogressbar
+  y = 53
+  barcolor = #c600ed
+}
+
+customization {
+  textcolor = #c600ed
+  action = editforgestatustext
+  y = -9
+}
+
+customization {
+  x = 176
+  textcolor = #c600ed
+  action = editforgememoryinfo
+  y = 8
+}
+
+customization {
+  path = resources/mainmenu/packlogo.png
+  orientation = mid-centered
+  x = 0
+  width = 101
+  action = addtexture
+  actionid = 4bbddc90-4b79-4ad7-928a-0f848be663b91629265554189
+  y = -11
+  height = 100
+}
+

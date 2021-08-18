@@ -1,14 +1,25 @@
-#Binaries
+# Binaries
 tools/TwitchExportBuilder
 tools/TwitchExportBuilder.exe
 tools/ChangelogGenerator.jar
 tools/ModpackDownloader.jar
 
-#Local Files
+# Local Files
+craftpresence/
+crash-reports/
+dumps/
+local/
+logs/
+.mixin.out/
+mods/
+saves/
 *.json
 *.zip
 !.build.json
-logs/
+BotaniaVars.dat
+.curseclient
+options.txt
+reauth.toml
 
-#Personal Files
+# Personal Files
 secrets.ps1

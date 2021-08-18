@@ -1,0 +1,148 @@
+
+#WTBW common config
+[oregen]
+
+	[oregen.kirinium]
+		#Max size of vein
+		#Default: 12
+		#Range: 1 ~ 256
+		maxVein = 12
+		#Veins per chunk
+		#Default: 3
+		#Range: 1 ~ 256
+		perChunk = 3
+		#Start height of veins
+		#Default: 0
+		#Range: 0 ~ 256
+		start = 0
+		#End height of veins
+		#Default: 72
+		#Range: 0 ~ 256
+		end = 72
+		#Is this oregen option enabled
+		enabled = true
+
+[blocks]
+	#The black list of blocks that can not be broken by machines (e.g. BlockBreaker, Quarry)
+	blockBreakBlacklist = ["minecraft:bedrock", "minecraft:end_portal_frame", "minecraft:end_portal", "minecraft:nether_portal", "minecraft:barrier_block"]
+
+	[blocks.furnace]
+
+		[blocks.furnace.Iron]
+			#Iron furnace smelting speed, in how many ticks it takes to smelt
+			#Range: 1 ~ 500
+			speed = 160
+
+		[blocks.furnace.Gold]
+			#Gold furnace smelting speed, in how many ticks it takes to smelt
+			#Range: 1 ~ 500
+			speed = 80
+
+		[blocks.furnace.DIAMOND]
+			#DIAMOND furnace smelting speed, in how many ticks it takes to smelt
+			#Range: 1 ~ 500
+			speed = 40
+
+		[blocks.furnace.End]
+			#End furnace smelting speed, in how many ticks it takes to smelt
+			#Range: 1 ~ 500
+			speed = 10
+
+	[blocks.redstone]
+
+		[blocks.redstone.timer]
+			#The time in ticks for the delay between pulses
+			#Range: 5 ~ 100
+			repeat = 10
+			#The duration of the redstone pulse for the timer
+			#Range: 1 ~ 100
+			duration = 6
+
+	[blocks.vacuum]
+		#The time in ticks between trying to suck up items
+		#default: 10
+		#Range: 1 ~ 100
+		tick_rate = 10
+		#The radius in which the vacuum can check
+		#default: 6
+		#Range: 1 ~ 16
+		range = 6
+
+	[blocks.pusher_puller]
+		#Strength of pull/push
+		#default: 0.8
+		#Range: 0.01 ~ 5.0
+		strength = 0.8
+		#Range of pusher/puller
+		#default: 6
+		#Range: 1 ~ 16
+		range = 6
+		#Ticks between pulls/pushes
+		#default: 10
+		#Range: 1 ~ 100
+		tick_rate = 10
+
+	[blocks.quarry]
+		#The maximum size of the quarry
+		#default:  128
+		#Range: 16 ~ 1024
+		max_size = 128
+		#The power it uses to break a block
+		#default: 1000
+		#Range: > 1
+		power_usage = 1000
+		#The capacity of the quarry's battery
+		#always at least as big as the power usage
+		#default: 1000000
+		#Range: > 1
+		capacity = 1000000
+		#The time in ticks between breaking a block
+		#default: 15
+		#Range: 1 ~ 1000
+		speed = 15
+		#If the quarry can break tile entities (like chests and spawners)
+		#default: false
+		break_tiles = false
+
+		[blocks.quarry.blocks]
+
+			[blocks.quarry.blocks.quarry]
+				#Quarry's default size
+				#default: 1
+				#Range: > 1
+				default_size = 1
+				#Tier 1 upgrade size 
+				#default: 3
+				#Range: > 1
+				tier1 = 3
+				#Tier 2 upgrade size
+				#default: 9
+				#Range: > 1
+				tier2 = 9
+				#Tier 3 upgrade size
+				#default: 17
+				#Range: > 1
+				tier3 = 17
+				#Tier 4 upgrade size
+				#default: 33
+				#Range: > 1
+				tier4 = 33
+
+	[blocks.multi]
+		#The amount to eject automatically per cycle.
+		#Default: 16
+		#Range: 1 ~ 128
+		item_eject_amount = 16
+		#The delay in ticks between trying to auto eject
+		#Default: 8
+		#Range: 1 ~ 60
+		item_eject_delay = 8
+
+		[blocks.multi.miner]
+			#Should the miner attempt to damage the drill item?
+			#Default: true
+			durability = true
+			#Should the miner consume the item if it has no durability, or not set to using durability?
+			#Default: true
+			consume = true
+
