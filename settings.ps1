@@ -5,10 +5,10 @@
 #  CURSEFORGE ACCOUNT SETTINGS
 # =====================================================================//
 
-$CURSEFORGE_USER = "MyUserName"
+$CURSEFORGE_USER = "UnicorNora"
 
 # ProjectID can be found on the modpack's Curseforge Projects page, under "About This Project"
-$CURSEFORGE_PROJECT_ID = 999999
+$CURSEFORGE_PROJECT_ID = 267237
 
 
 #=====================================================================//
@@ -31,13 +31,13 @@ $ModpackDownloaderDL = "ModpackDownloader-cli-0.6.1.jar"
 # =====================================================================//
 
 # This is the Pack Name
-$CLIENT_FANCY_NAME = "My Modpack"
+$CLIENT_FANCY_NAME = "ADG Omega 5"
 
 # Name of the Modpack in the ZIP File
-$CLIENT_NAME = "MyModpack"
+$CLIENT_NAME = "ADG-Omega5"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "1.0.1"
+$MODPACK_VERSION = "1.0.0"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
@@ -45,7 +45,7 @@ $LAST_MODPACK_VERSION = "1.0.0"
 
 # Modpacks Forge Version:
 # Default: "14.23.5.2854"
-$FORGE_VERSION=14.23.5.2854
+$FORGE_VERSION=36.2.2
 
 
 # =====================================================================//
@@ -70,10 +70,10 @@ $CLIENT_CHANGELOG = "Empty"
 # @(7722) - is Minecraft 1.15.2
 # @(8134) - is Minecraft 1.16.4
 # More can be found by running GetGameVersions
-$GAME_VERSIONS = @(6756)
+$GAME_VERSIONS = @(8204)
 
 # Can be "alpha", "beta" or "release"
-$CLIENT_RELEASE_TYPE = "alpha"
+$CLIENT_RELEASE_TYPE = "beta"
 
 
 #=====================================================================//

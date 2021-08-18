@@ -5,4 +5,4 @@
 #  CURSEFORGE ACCOUNT SETTINGS
 # =====================================================================//
 
-$CURSEFORGE_TOKEN = "My-Token"
+$CURSEFORGE_TOKEN = "bdf1037d-b9c0-4948-ba07-58567b0742f4"
