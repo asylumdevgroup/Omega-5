@@ -226,22 +226,22 @@
 
 [management]
 	"Chests In Boats" = true
-	"Easy Transfering" = true
+	"Easy Transfering" = false
 	"Hotbar Changer" = true
-	"Inventory Sorting" = true
+	"Inventory Sorting" = false
 	"Item Sharing" = true
 	"Right Click Armor" = true
 	"Shulker Box Right Click" = true
 
 	[management.easy_transfering]
-		"Enable Shift Lock" = true
+		"Enable Shift Lock" = false
 
 	[management.inventory_sorting]
-		"Enable Player Inventory" = true
-		"Enable Player Inventory In Chests" = true
-		"Enable Chests" = true
+		"Enable Player Inventory" = false
+		"Enable Player Inventory In Chests" = false
+		"Enable Chests" = false
 		#Play a click when sorting inventories using keybindings
-		"Satisfying Click" = true
+		"Satisfying Click" = false
 
 	[management.item_sharing]
 		"Render Items In Chat" = true
@@ -1867,7 +1867,7 @@
 [client]
 	"Auto Walk Keybind" = true
 	"Back Button Keybind" = true
-	"Chest Searching" = true
+	"Chest Searching" = false
 	"Greener Grass" = true
 	"Improved Mount Hud" = true
 	"Improved Tooltips" = true
@@ -1931,7 +1931,7 @@
 	Magnets = true
 	"Matrix Enchanting" = true
 	Pipes = true
-	"Totem Of Holding" = true
+	"Totem Of Holding" = false
 
 	[oddities.backpack]
 		#Set this to true to allow the backpacks to be unequipped even with items in them
@@ -2019,7 +2019,7 @@
 	"Game Nerfs" = false
 	"Narrator Readout" = false
 	"Overlay Shader" = false
-	Shiba = false
+	Shiba = true
 
 	[experimental.adjustable_chat]
 		"Horizontal Shift" = 0

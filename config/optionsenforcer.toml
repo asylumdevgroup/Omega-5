@@ -1,0 +1,14 @@
+
+[general]
+	#Mod files placed in this folder will get copied into the mods folder during launch, if they're not there already. After copying, you will need to re-launch the game to load the copied mods. See the "Throw Exception On Mods Copied" config option.
+	"Mods Carryover Folder" = "mods-carryover"
+	#Each string entry should specify a target file, followed by a pipe, followed by a config value to assign.
+	#Example: "options.txt|renderDistance:10"
+	"Options Enforcement" = ["options.txt|mipmapLevels:4"]
+	#Reloads your Resource Packs at the main menu screen if they have changed as a result of Options Enforcement values
+	"Reload Resource Packs On Changed" = true
+	#If true, crashes the game with a ModsCopiedException if any files were copied to the mods folder from the folder specified in "Mods Carryover Folder", so that you can restart the game and load those mods faster than waiting until the main menu. If false, you'll instead get a reminder to restart right before the main menu.
+	"Throw Exception On Mods Copied" = false
+	#Displays a client-side chat message on login if there's an update available.
+	"Version Checker" = true
+

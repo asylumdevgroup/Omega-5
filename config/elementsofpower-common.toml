@@ -1,0 +1,6 @@
+
+[integration]
+	disableAequivaleoSupport = false
+	#If enabled, the internal recipe scanner will print per-item information in the logs.
+	verboseDebug = false
+

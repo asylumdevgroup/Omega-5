@@ -1,0 +1,182 @@
+enabled = true
+disableSaving = false
+debug = false
+
+[debugText]
+x = 4.0
+y = 4.0
+maxDepth = 3
+
+[abilities]
+pauseInventory = true
+pauseCreativeInventory = true
+pauseCraftingTable = false
+pauseFurnace = false
+pauseShulkerBox = false
+pauseChest = false
+
+[abilities.worldGUIs]
+pauseHorse = false
+pauseMerchant = false
+
+[abilities.additionalGUIs]
+pauseAnvil = false
+pauseBeacon = false
+pauseDispenser = false
+pauseBrewingStand = false
+pauseCartographyTable = false
+pauseStonecutter = false
+
+[modCompat]
+waystonesCompat = true
+ironchestCompat = true
+botaniaCompat = true
+curiosCompat = true
+theTwilightForestCompat = true
+mekanismCompat = true
+refinedStorageCompat = false
+titaniumCompat = true
+industrialForegoingCompat = true
+projectECompat = false
+customScreens = []
+
+[modCompat.fineTuning.waystonesConfig]
+waystonesSelectionScreen = true
+warpPlateScreen = true
+sharestoneSelectionScreen = true
+waystonesSettingsScreen = true
+
+[modCompat.fineTuning.appliedEnergistics2Config]
+cellWorkbenchScreen = true
+chestScreen = true
+condenserScreen = true
+driveScreen = true
+formationPlaneScreen = true
+grinderScreen = true
+inscriberScreen = true
+interfaceScreen = true
+IOBusScreen = true
+IOPortScreen = true
+levelEmitterScreen = true
+molecularAssemblerScreen = true
+priorityScreen = true
+QNBScreen = true
+quartzKnifeScreen = true
+securityStationScreen = true
+skyChestScreen = true
+spatialAnchorScreen = true
+spatialIOPortScreen = true
+storageBusScreen = true
+vibrationChamberScreen = true
+wirelessScreen = true
+
+[modCompat.fineTuning.mekanismConfig]
+guiDictionary = false
+guiPersonalChestItem = false
+guiPortableTeleporter = false
+guiSeismicReader = false
+guiAntiprotonicNucleosynthesizer = true
+guiChemicalDissolutionChamber = true
+guiChemicalInfuser = true
+guiChemicalOxidizer = true
+guiChemicalWasher = true
+guiCombiner = true
+guiDigitalMiner = true
+guiDigitalMinerConfig = true
+guiElectricPump = true
+guiElectrolyticSeparator = true
+guiFactory = true
+guiFluidicPlenisher = true
+guiFormulaicAssemblicator = true
+guiFuelwoodHeater = true
+guiIsotopicCentrifuge = true
+guiMetallurgicInfuser = true
+guiNutritionalLiquifier = true
+guiOredictionificator = true
+guiPRC = true
+guiPrecisionSawmill = true
+guiResistiveHeater = true
+guiRotaryCondensentrator = true
+guiSeismicVibrator = true
+guiSolarNeutronActivator = true
+guiPortableQIODashboard = true
+guiQIODashboard = true
+guiQIODriveArray = true
+guiQIOExporter = true
+guiQIOImporter = true
+guiQIOItemFrequencySelect = true
+guiQIORedstoneAdapter = true
+guiQIOTileFrequencySelect = true
+guiRobitCrafting = true
+guiRobitInventory = true
+guiRobitMain = true
+guiRobitRepair = true
+guiRobitSmelting = false
+guiBoilerStats = true
+guiChemicalTank = true
+guiDynamicTank = true
+guiEnergyCube = true
+guiFluidTank = true
+guiInductionMatrix = true
+guiLaserAmplifier = true
+guiLaserTractorBeam = true
+guiLogisticalSorter = true
+guiMatrixStats = true
+guiModificationStation = true
+guiModuleTweaker = true
+guiPersonalChestTile = true
+guiQuantumEntangloporter = true
+guiSecurityDesk = true
+guiSPS = true
+guiTeleporter = true
+guiThermalEvaporationController = true
+guiThermoelectricBoiler = true
+guiUpgradeManagement = true
+
+[modCompat.fineTuning.refinedStorageConfig]
+constructorScreen = true
+controllerScreen = true
+crafterManagerScreen = true
+crafterScreen = true
+craftingMonitorScreen = true
+destructorScreen = true
+detectorScreen = true
+diskDriveScreen = true
+diskManipulatorScreen = true
+exporterScreen = true
+externalStorageScreen = true
+filterScreen = true
+fluidAmountScreen = true
+fluidInterfaceScreen = true
+fluidStorageBlockScreen = true
+importerScreen = true
+interfaceScreen = true
+itemAmountScreen = true
+networkTransmitterScreen = true
+priorityScreen = true
+relayScreen = true
+securityManagerScreen = true
+storageBlockScreen = true
+storageMonitorScreen = true
+wirelessTransmitterScreen = true
+
+[modCompat.fineTuning.industrialForegoingConfig]
+guiTransporter = true
+guiConveyor = true
+
+[modCompat.fineTuning.projectEConfig]
+abstractCollectorScreenMK1 = true
+abstractCollectorScreenMK2 = true
+abstractCollectorScreenMK3 = true
+abstractCondenserScreenMK1 = true
+abstractCondenserScreenMK2 = true
+alchBagScreen = true
+alchChestScreen = true
+GUIDMFurnace = true
+GUIEternalDensity = true
+GUIMercurialEye = true
+GUIRelayMK1 = true
+GUIRelayMK2 = true
+GUIRelayMK3 = true
+GUIRMFurnace = true
+GUITransmutation = true

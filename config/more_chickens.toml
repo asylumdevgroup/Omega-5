@@ -1,0 +1,1342 @@
+
+#Nest-related config
+[Nest]
+	#Rate at which to tick nests
+	#Range: 0.0 ~ 1000000.0
+	NestTickRate = 1.0
+
+#Odds of successful cross-breeding to ascend one tier
+[Tiers]
+	#Range: 0.0 ~ 1.0
+	tier0 = 0.5
+	#Range: 0.0 ~ 1.0
+	tier1 = 1.0
+	#Range: 0.0 ~ 1.0
+	tier2 = 0.75
+	#Range: 0.0 ~ 1.0
+	tier3 = 0.5
+	#Range: 0.0 ~ 1.0
+	tier4 = 0.25
+	#Range: 0.0 ~ 1.0
+	tier5 = 0.125
+	#Range: 0.0 ~ 1.0
+	tier6 = 0.0625
+
+#No comment
+[blockSpeed]
+	#Prevent vanilla chickens from laying eggs. Of interest to modpack makers only. Default: false.
+	disableEggLaying = false
+	#The speed multiplier for the roost. Higher is faster. Default: 1.
+	#Range: 0.0 ~ 100.0
+	roostSpeed = 1.0
+	#The speed multiplier for the breeder. Higher is faster. Default: 1.
+	#Range: 0.01 ~ 100.0
+	breederSpeed = 1.0
+
+#wild chicken spawn chance
+[baits]
+	#The chance (per second) that a oak chicken bait will result in a spawn.
+	#Range: 0.0020000000949949026 ~ 1.0
+	oakChance = 0.009999999776482582
+	#The chance (per second) that a sand chicken bait will result in a spawn.
+	#Range: 0.0020000000949949026 ~ 1.0
+	sandChance = 0.009999999776482582
+	#The chance (per second) that a flint chicken bait will result in a spawn.
+	#Range: 0.0020000000949949026 ~ 1.0
+	flintChance = 0.009999999776482582
+	#The chance (per second) that a quartz chicken bait will result in a spawn.
+	#Range: 0.0020000000949949026 ~ 1.0
+	quartzChance = 0.009999999776482582
+	#The chance (per second) that a soulSand chicken bait will result in a spawn.
+	#Range: 0.0020000000949949026 ~ 1.0
+	soulSandChance = 0.009999999776482582
+
+#World gen options
+[World]
+	#Chicken spawning weight (higher = more common)
+	#Range: 0 ~ 100
+	SpawnWeight = 10
+	#Minimum number of Chickens to spawn at once
+	#Range: 0 ~ 20
+	SpawnMin = 2
+	#Maximum number of Chickens to spawn at once
+	#Range: 0 ~ 20
+	SpawnMax = 5
+
+#Options for Chicken breeding
+[ChickenBreeding]
+	#Chance for egg to spawn a Chicken (higher = rarer)
+	#Range: 1 ~ 1000
+	ChickenEggChance = 4
+	#Chance for egg to spawn 4 Chicken instead of 1
+	#Range: 1 ~ 1000
+	ChickenEggMultiChance = 32
+	#Delay in ticks between Chicken breeding
+	#Range: 1 ~ 144000
+	ChickenBreedingTime = 6000
+
+#Settings for each type of Chicken
+[ChickenTypes]
+	#Child chicken types, copy the format from default chicken, but add a Name property
+	Extras = []
+
+	#Config values for Chicken type dye_blue
+	[ChickenTypes.dye_blue]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 2
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 2
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 3000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:blue_dye"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = ""
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = ""
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 0
+
+	#Config values for Chicken type dye_black
+	[ChickenTypes.dye_black]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 2
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 2
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 3000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:black_dye"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = ""
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = ""
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 0
+
+	#Config values for Chicken type dye_white
+	[ChickenTypes.dye_white]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 2
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 2
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 3000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:white_dye"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = ""
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = ""
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 0
+
+	#Config values for Chicken type string
+	[ChickenTypes.string]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 1
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 0
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 3000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 1
+		#ID of item dropped as egg
+		DropItem = "minecraft:string"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = "minecraft:mutton"
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = "dye_black"
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = "oak"
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 1
+
+	#Config values for Chicken type prism_shard
+	[ChickenTypes.prism_shard]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 1
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 3
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 20000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 2
+		#ID of item dropped as egg
+		DropItem = "minecraft:prismarine_shard"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = "minecraft:prismarine_crystals"
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = "dye_blue"
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = "water"
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 4
+
+	#Config values for Chicken type soul_sand
+	[ChickenTypes.soul_sand]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 1
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 0
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 4800
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:soul_sand"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = ""
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = ""
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 0
+
+	#Config values for Chicken type dye_green
+	[ChickenTypes.dye_green]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 2
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 2
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 3000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:green_dye"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = ""
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = ""
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 0
+
+	#Config values for Chicken type dye_lime
+	[ChickenTypes.dye_lime]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 2
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 2
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 3000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:lime_dye"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = "dye_white"
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = "dye_green"
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 0
+
+	#Config values for Chicken type dye_light_gray
+	[ChickenTypes.dye_light_gray]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 2
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 2
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 3000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:light_gray_dye"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = "dye_white"
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = "dye_gray"
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 0
+
+	#Config values for Chicken type glowstone
+	[ChickenTypes.glowstone]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 1
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 3
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 6000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:glowstone_dust"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = "dye_yellow"
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = "quartz"
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 3
+
+	#Config values for Chicken type clay
+	[ChickenTypes.clay]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 1
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 2
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 3000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:clay_ball"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = "sand"
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = "snowball"
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 2
+
+	#Config values for Chicken type slime
+	[ChickenTypes.slime]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 1
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 0
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 6000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:slime_balls"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = "dye_green"
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = "clay"
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 2
+
+	#Config values for Chicken type gold
+	[ChickenTypes.gold]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 1
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 0
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 12000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:gold_ingot"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = "dye_yellow"
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = "iron"
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 3
+
+	#Config values for Chicken type dye_brown
+	[ChickenTypes.dye_brown]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 2
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 2
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 3000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:brown_dye"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = "dye_green"
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = "dye_red"
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 0
+
+	#Config values for Chicken type lava
+	[ChickenTypes.lava]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 1
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 0
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 3000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "chickens:ball_lava"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = "quartz"
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = "coal"
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 3
+
+	#Config values for Chicken type blaze
+	[ChickenTypes.blaze]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 1
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 0
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 9000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:blaze_rod"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = ""
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = ""
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 0
+
+	#Config values for Chicken type oak
+	[ChickenTypes.oak]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 1
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 0
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 4800
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 1
+		#ID of item dropped as egg
+		DropItem = "minecraft:oak_log"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = "minecraft:oak_sapling"
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = ""
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = ""
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 0
+
+	#Config values for Chicken type dye_cyan
+	[ChickenTypes.dye_cyan]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 2
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 2
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 3000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:cyan_dye"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = "dye_blue"
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = "dye_green"
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 0
+
+	#Config values for Chicken type ender_pearl
+	[ChickenTypes.ender_pearl]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 1
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 0
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 24000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:ender_pearl"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = "diamond"
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = "wart"
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 5
+
+	#Config values for Chicken type ghast_tear
+	[ChickenTypes.ghast_tear]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 1
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 0
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 16000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:ghast_tear"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = "dye_white"
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = "blaze"
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 5
+
+	#Config values for Chicken type dye_light_blue
+	[ChickenTypes.dye_light_blue]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 2
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 2
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 3000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:light_blue_dye"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = "dye_white"
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = "dye_blue"
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 0
+
+	#Config values for Chicken type dye_magenta
+	[ChickenTypes.dye_magenta]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 2
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 2
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 3000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:magenta_dye"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = "dye_purple"
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = "dye_pink"
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 0
+
+	#Config values for Chicken type dye_gray
+	[ChickenTypes.dye_gray]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 2
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 2
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 3000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:gray_dye"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = "dye_white"
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = "dye_black"
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 0
+
+	#Config values for Chicken type glass
+	[ChickenTypes.glass]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 1
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 0
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 4800
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:glass"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = "quartz"
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = "redstone"
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 3
+
+	#Config values for Chicken type obsidian
+	[ChickenTypes.obsidian]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 1
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 0
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 12000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:obsidian"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = "water"
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = "lava"
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 4
+
+	#Config values for Chicken type dye_red
+	[ChickenTypes.dye_red]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 2
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 2
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 3000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:red_dye"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = ""
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = ""
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 0
+
+	#Config values for Chicken type dye_yellow
+	[ChickenTypes.dye_yellow]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 2
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 2
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 3000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:yellow_dye"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = ""
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = ""
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 0
+
+	#Config values for Chicken type quartz
+	[ChickenTypes.quartz]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 1
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 0
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 4800
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:quartz"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = ""
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = ""
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 0
+
+	#Config values for Chicken type gunpowder
+	[ChickenTypes.gunpowder]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 1
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 0
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 4800
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:gunpowder"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = "sand"
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = "flint"
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 2
+
+	#Config values for Chicken type water
+	[ChickenTypes.water]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 1
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 0
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 4800
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "chickens:ball_water"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = ""
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = ""
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 0
+
+	#Config values for Chicken type leather
+	[ChickenTypes.leather]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 1
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 0
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 4800
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 1
+		#ID of item dropped as egg
+		DropItem = "minecraft:leather"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = "minecraft:beef"
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = "dye_brown"
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = "string"
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 2
+
+	#Config values for Chicken type dye_orange
+	[ChickenTypes.dye_orange]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 2
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 2
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 3000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:orange_dye"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = "dye_yellow"
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = "dye_red"
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 0
+
+	#Config values for Chicken type sand
+	[ChickenTypes.sand]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 1
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 0
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 4800
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 2
+		#ID of item dropped as egg
+		DropItem = "minecraft:sand"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = "minecraft:kelp"
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = ""
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = ""
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 0
+
+	#Config values for Chicken type diamond
+	[ChickenTypes.diamond]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 1
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 0
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 24000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:diamond"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = "gold"
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = "glass"
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 5
+
+	#Config values for Chicken type magma_cream
+	[ChickenTypes.magma_cream]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 1
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 0
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 12000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:magma_cream"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = "blaze"
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = "slime"
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 4
+
+	#Config values for Chicken type dye_pink
+	[ChickenTypes.dye_pink]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 2
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 2
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 3000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:pink_dye"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = "dye_white"
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = "dye_red"
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 0
+
+	#Config values for Chicken type flint
+	[ChickenTypes.flint]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 1
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 0
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 4800
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 1
+		#ID of item dropped as egg
+		DropItem = "minecraft:flint"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = "minecraft:flint"
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = ""
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = ""
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 0
+
+	#Config values for Chicken type iron
+	[ChickenTypes.iron]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 1
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 0
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 6000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:iron_ingot"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = "dye_white"
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = "flint"
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 1
+
+	#Config values for Chicken type coal
+	[ChickenTypes.coal]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 1
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 0
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 6000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:coal"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = "oak"
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = "flint"
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 2
+
+	#Config values for Chicken type snowball
+	[ChickenTypes.snowball]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 1
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 2
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 4800
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 1
+		#ID of item dropped as egg
+		DropItem = "minecraft:snowball"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = "minecraft:sweet_berries"
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = "dye_blue"
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = "oak"
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 1
+
+	#Config values for Chicken type wart
+	[ChickenTypes.wart]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 1
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 0
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 6000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:nether_wart"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = "dye_brown"
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = "glowstone"
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 4
+
+	#Config values for Chicken type redstone
+	[ChickenTypes.redstone]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 1
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 2
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 6000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:redstone"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = "dye_red"
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = "sand"
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 2
+
+	#Config values for Chicken type emerald
+	[ChickenTypes.emerald]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 1
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 0
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 24000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 1
+		#ID of item dropped as egg
+		DropItem = "minecraft:emerald"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = "minecraft:saddle"
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = "dye_green"
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = "diamond"
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 4
+
+	#Config values for Chicken type dye_purple
+	[ChickenTypes.dye_purple]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 2
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 2
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 3000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:purple_dye"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = "dye_blue"
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = "dye_red"
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 0
+
+	#Config values for Chicken type prism_crystals
+	[ChickenTypes.prism_crystals]
+		#Base amount of loot laid
+		#Range: 0 ~ 64
+		Amount = 1
+		#Size of range of loot variance
+		#Range: 0 ~ 64
+		RandomAmount = 3
+		#Minimum ticks between laying
+		#Range: 0 ~ 1000000
+		LayTime = 20000
+		#Amount of extra death loot dropped, if any
+		#Range: 0 ~ 64
+		DeathAmount = 0
+		#ID of item dropped as egg
+		DropItem = "minecraft:prismarine_crystals"
+		#Extra item dropped on death, empty string for nothing
+		DeathItem = ""
+		#Whether the Chicken type is enabled
+		Enabled = true
+		#One parent of breeding pair, empty for non-breedable
+		Parent1 = "water"
+		#One parent of breeding pair, empty for non-breedable
+		Parent2 = "emerald"
+		#Tier for odds of successful breed
+		#Range: 0 ~ 6
+		Tier = 5
+

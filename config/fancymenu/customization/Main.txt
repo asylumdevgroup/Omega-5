@@ -31,7 +31,7 @@ customization {
 customization {
   identifier = %id=400322%
   action = setbuttontexture
-  backgroundhovered = resources/mainmenu/long_button.png
+  backgroundhovered = resources/mainmenu/long_button_highlighted.png
   backgroundnormal = resources/mainmenu/long_button.png
 }
 
@@ -43,7 +43,7 @@ customization {
 customization {
   identifier = %id=400382%
   orientation = mid-centered
-  x = -100
+  x = -99
   action = movebutton
   y = 55
 }
@@ -58,7 +58,7 @@ customization {
 customization {
   identifier = %id=400382%
   action = setbuttontexture
-  backgroundhovered = resources/mainmenu/button.png
+  backgroundhovered = resources/mainmenu/button_highlighted.png
   backgroundnormal = resources/mainmenu/button.png
 }
 
@@ -80,7 +80,7 @@ customization {
 customization {
   identifier = %id=502382%
   action = setbuttontexture
-  backgroundhovered = resources/mainmenu/button.png
+  backgroundhovered = resources/mainmenu/button_highlighted.png
   backgroundnormal = resources/mainmenu/button.png
 }
 
@@ -107,7 +107,7 @@ customization {
 customization {
   identifier = %id=400298%
   action = setbuttontexture
-  backgroundhovered = resources/mainmenu/long_button.png
+  backgroundhovered = resources/mainmenu/long_button_highlighted.png
   backgroundnormal = resources/mainmenu/long_button.png
 }
 
@@ -129,7 +129,7 @@ customization {
 customization {
   identifier = %id=400346%
   action = setbuttontexture
-  backgroundhovered = resources/mainmenu/button.png
+  backgroundhovered = resources/mainmenu/button_highlighted.png
   backgroundnormal = resources/mainmenu/button.png
 }
 
@@ -143,10 +143,10 @@ customization {
   buttonaction = openlink
   x = 1
   width = 98
-  actionid = 9a420106-748e-43ec-af76-659be87ea8cf1629265740324
+  actionid = ea264cfd-5bc9-453c-9bb8-535c6c48a43f1629304671366
   action = addbutton
   y = 30
-  backgroundhovered = resources/mainmenu/button.png
+  backgroundhovered = resources/mainmenu/button_highlighted.png
   label = Discord
   backgroundnormal = resources/mainmenu/button.png
   value = https://discord.gg/MTTCeZZ

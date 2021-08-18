@@ -1,0 +1,6 @@
+
+#Goo Client Configs
+[client_options]
+	#Make goo values visible without having the book in your inventory, default: false
+	gooValuesVisibleWithoutBook = false
+

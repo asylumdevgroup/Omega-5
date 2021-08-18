@@ -1,0 +1,26 @@
+
+[General]
+	#The chance that the "age" property of retting fiber bales will progress with each growth opportunity.
+	#Lower values mean a lower chance of progress (slower progress), whereas higher values mean a higher chance (quicker progress).
+	#Range: 0.0 ~ 1.0
+	retting_bale_tick_age_chance = 0.65
+	#A global modifier for the probability that the "age" value of the flax crop will increase with each growth opportunity.
+	#Lower values mean a lower chance of increase (slower growth), whereas higher values mean a higher chance of increase (quicker growth).
+	#Range: 0.0 ~ 1.0
+	flax_crop_growth_modifier = 1.0
+	#The minimum light level that Flax needs in order to grow.
+	#The light level at the crop's position must equal or exceed this value, else no growth will occur.
+	#Range: 0 ~ 15
+	flax_min_lightlevel = 8
+	#Whether Shepherd villagers should sell Fabric if they are sufficiently skilled.
+	#Changes to this value will require that the current World be reloaded.
+	shepherd_trade_fabrics = true
+	#The minimum skill level that Shepherd villagers must reach before Fabric trades become available.
+	#This value will have no effect if the shepherd trading feature is disabled.
+	#Changes to this value will require that the current World be reloaded.
+	#Allowed Values: NOVICE, APPRENTICE, JOURNEYMAN, EXPERT, MASTER
+	shepherd_trade_skill_threshold = "JOURNEYMAN"
+	#Whether the Wandering Trader will occasionally deal in Fabrics.
+	#Changes to this value will require that the current World be reloaded.
+	wandering_trader_trade_fabrics = true
+
