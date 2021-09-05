@@ -64,7 +64,7 @@ boxBorderColor = "ffff004d"
 boxFillColor = "ff000000"
 #Thickness of the border of the box (0 to disable)
 #Range: 0 ~ 20
-boxThickness = 2
+boxThickness = 1
 #How much the border should be offset (i.e. to create an 'outer' border)
 #Range: 0 ~ 20
 boxOffset = 1

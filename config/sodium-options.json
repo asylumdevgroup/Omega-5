@@ -3,7 +3,7 @@
     "cloud_quality": "DEFAULT",
     "weather_quality": "DEFAULT",
     "enable_vignette": true,
-    "enable_fog": true,
+    "enable_fog": false,
     "enable_clouds": true,
     "smooth_lighting": "HIGH"
   },
@@ -21,5 +21,5 @@
     "allow_direct_memory_access": true,
     "ignore_driver_blacklist": false
   },
-  "fps_counter": false
+  "fps_counter": true
 }

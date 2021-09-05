@@ -1,0 +1,12 @@
+
+#Settings
+[general]
+
+	[general.general]
+		# Redstone Torch, used to configure the Redstone Mode. If another mod overrides usage of this item, you can change the registry name of the used item (using blocks is not possible) here.
+		# Default: minecraft:redstone_torch
+		redstone_mode_item = "redstone_torch"
+		# The modid of the item
+		# Default: minecraft:redstone_torch
+		redstone_mode_mod = "minecraft"
+

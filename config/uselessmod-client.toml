@@ -1,0 +1,6 @@
+
+#Welcome to the client config file!
+[gui]
+	#Render Mana bar if mana is in it
+	renderManaBar = true
+
