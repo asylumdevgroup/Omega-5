@@ -1,0 +1,10 @@
+
+["Client-Side Integration"]
+	ftbChunks = true
+	waystones = true
+
+["Waystone Marker"]
+	#The color code for Waystone marker. You can generate the color code from https://www.mathsisfun.com/hexadecimal-decimal-colors.html
+	#Range: 0 ~ 16777215
+	wayStoneColor = 14738591
+

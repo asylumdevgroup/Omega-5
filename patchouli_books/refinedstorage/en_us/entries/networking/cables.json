@@ -1,0 +1,15 @@
+{
+    "name": "book.refinedstorage.entry.networking.cables.title",
+    "category": "patchouli:networking",
+    "icon": "refinedstorage:cable",
+    "pages": [
+        {
+            "type": "text",
+            "text": "book.refinedstorage.entry.networking.cables.line0"
+        },
+        {
+            "type": "crafting",
+            "recipe": "refinedstorage:cable"
+        }
+    ]
+}

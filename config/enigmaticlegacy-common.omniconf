@@ -319,13 +319,13 @@
     B:EnigmaticAmuletMultiequip=false
 
     # If true, only original owner of Extradimensional Vessel will be able to pick it up. [default: false, synchronized: yes]
-    B:EnigmaticAmuletOwnerOnlyVessel=false
+    B:EnigmaticAmuletOwnerOnlyVessel=true
 
     # If true, color of Enigmatic Amulet will be assigned using player's name as seed for generating it, instead of randomly - so that every player will always receive one specific color. [default: false, synchronized: yes]
     B:EnigmaticAmuletSeededColorGen=false
 
     # Whether or not Enigmatic Amulet should be summoning Extradimensional Vessel on owner's death. [default: true, synchronized: yes]
-    B:EnigmaticAmuletVesselEnabled=true
+    B:EnigmaticAmuletVesselEnabled=false
 
     # Active ability cooldown for Heart of Creation. Measured in ticks. 20 ticks equal to 1 second. [range: 0 ~ 32768, default: 3, synchronized: yes]
     I:EnigmaticItemCooldown=3

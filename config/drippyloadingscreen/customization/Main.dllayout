@@ -1,7 +1,7 @@
 type = hud
 
 customization-meta {
-  backgroundimage = resources/mainmenu/bg.png
+  backgroundimage = openloader/resources/mainmenu/bg.png
   renderorder = foreground
 }
 
@@ -19,26 +19,29 @@ customization {
 }
 
 customization {
+  x = 5
   textcolor = #c600ed
   action = editforgestatustext
-  y = -9
+  y = -5
 }
 
 customization {
-  x = 176
+  orientation = top-right
+  x = -3
   textcolor = #c600ed
   action = editforgememoryinfo
   y = 8
+  scale = 0.8
 }
 
 customization {
-  path = resources/mainmenu/packlogo.png
+  path = openloader/resources/mainmenu/packlogo.png
   orientation = mid-centered
-  x = 0
-  width = 101
+  x = -1
+  width = 89
   action = addtexture
-  actionid = 4bbddc90-4b79-4ad7-928a-0f848be663b91629265554189
-  y = -11
-  height = 100
+  actionid = 60fe12ef-479c-481a-9cc9-24fd866b80e31630964945197
+  y = -4
+  height = 89
 }
 

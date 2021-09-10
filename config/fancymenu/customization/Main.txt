@@ -9,7 +9,7 @@ customization-meta {
 }
 
 customization {
-  path = resources/mainmenu/bg.png
+  path = openloader/resources/mainmenu/bg.png
   action = texturizebackground
 }
 
@@ -31,8 +31,8 @@ customization {
 customization {
   identifier = %id=400322%
   action = setbuttontexture
-  backgroundhovered = resources/mainmenu/long_button_highlighted.png
-  backgroundnormal = resources/mainmenu/long_button.png
+  backgroundhovered = openloader/resources/mainmenu/long_button_highlighted.png
+  backgroundnormal = openloader/resources/mainmenu/long_button.png
 }
 
 customization {
@@ -58,8 +58,8 @@ customization {
 customization {
   identifier = %id=400382%
   action = setbuttontexture
-  backgroundhovered = resources/mainmenu/button_highlighted.png
-  backgroundnormal = resources/mainmenu/button.png
+  backgroundhovered = openloader/resources/mainmenu/button_highlighted.png
+  backgroundnormal = openloader/resources/mainmenu/button.png
 }
 
 customization {
@@ -67,7 +67,7 @@ customization {
   orientation = mid-centered
   x = 1
   action = movebutton
-  y = 55
+  y = 54
 }
 
 customization {
@@ -80,8 +80,8 @@ customization {
 customization {
   identifier = %id=502382%
   action = setbuttontexture
-  backgroundhovered = resources/mainmenu/button_highlighted.png
-  backgroundnormal = resources/mainmenu/button.png
+  backgroundhovered = openloader/resources/mainmenu/button_highlighted.png
+  backgroundnormal = openloader/resources/mainmenu/button.png
 }
 
 customization {
@@ -107,8 +107,8 @@ customization {
 customization {
   identifier = %id=400298%
   action = setbuttontexture
-  backgroundhovered = resources/mainmenu/long_button_highlighted.png
-  backgroundnormal = resources/mainmenu/long_button.png
+  backgroundhovered = openloader/resources/mainmenu/long_button_highlighted.png
+  backgroundnormal = openloader/resources/mainmenu/long_button.png
 }
 
 customization {
@@ -129,8 +129,8 @@ customization {
 customization {
   identifier = %id=400346%
   action = setbuttontexture
-  backgroundhovered = resources/mainmenu/button_highlighted.png
-  backgroundnormal = resources/mainmenu/button.png
+  backgroundhovered = openloader/resources/mainmenu/button_highlighted.png
+  backgroundnormal = openloader/resources/mainmenu/button.png
 }
 
 customization {
@@ -143,29 +143,29 @@ customization {
   buttonaction = openlink
   x = 1
   width = 98
-  actionid = ea264cfd-5bc9-453c-9bb8-535c6c48a43f1629304671366
+  actionid = 9dc95ca2-4357-4b1c-a16e-511998cacf931630964824817
   action = addbutton
   y = 30
-  backgroundhovered = resources/mainmenu/button_highlighted.png
+  backgroundhovered = openloader/resources/mainmenu/button_highlighted.png
   label = Discord
-  backgroundnormal = resources/mainmenu/button.png
+  backgroundnormal = openloader/resources/mainmenu/button.png
   value = https://discord.gg/MTTCeZZ
   height = 25
 }
 
 customization {
-  path = resources/mainmenu/packlogo.png
-  orientation = top-centered
-  x = -41
-  width = 83
-  action = addtexture
-  actionid = c7bfb541-4ac0-430c-8e8f-c6b02a3e3f0e1629265373133
-  y = 20
-  height = 82
+  identifier = %id=90%
+  action = hidebutton
 }
 
 customization {
-  identifier = %id=90%
-  action = hidebutton
+  path = openloader/resources/mainmenu/packlogo.png
+  orientation = top-centered
+  x = -43
+  width = 85
+  action = addtexture
+  actionid = f8f7b8b0-97e2-422d-aa2c-f6dc6722a8931630964686911
+  y = 19
+  height = 84
 }
 

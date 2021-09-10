@@ -1,0 +1,11 @@
+{
+    "name": "book.refinedstorage.entry.grids.sizing.title",
+    "category": "patchouli:grids",
+    "icon": "refinedstorage:grid",
+    "pages": [
+        {
+            "type": "text",
+            "text": "book.refinedstorage.entry.grids.sizing.line0"
+        }
+    ]
+}

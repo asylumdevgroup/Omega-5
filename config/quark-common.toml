@@ -126,7 +126,7 @@
 	"Tie Leads To Fences" = true
 	Turf = true
 	"Variant Bookshelves" = true
-	"Variant Chests" = true
+	"Variant Chests" = false
 	"Variant Ladders" = true
 	"Vertical Planks" = true
 	"Vertical Slabs" = true
@@ -448,7 +448,7 @@
 		"Max Bounces" = 1
 
 	[tweaks.sign_editing]
-		"Requires Empty Hand" = false
+		"Requires Empty Hand" = true
 
 	[tweaks.simple_harvest]
 		#Can players harvest crops with empty hand clicks?
@@ -1929,7 +1929,7 @@
 	Backpack = true
 	Crate = true
 	Magnets = true
-	"Matrix Enchanting" = true
+	"Matrix Enchanting" = false
 	Pipes = true
 	"Totem Of Holding" = false
 

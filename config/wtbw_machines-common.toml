@@ -20,7 +20,7 @@
 		#Range: 0 ~ 256
 		end = 72
 		#Is this oregen option enabled
-		enabled = true
+		enabled = false
 
 [blocks]
 	#The black list of blocks that can not be broken by machines (e.g. BlockBreaker, Quarry)

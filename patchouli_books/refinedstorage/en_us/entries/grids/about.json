@@ -1,0 +1,32 @@
+{
+    "name": "book.refinedstorage.entry.grids.about.title",
+    "category": "patchouli:grids",
+    "icon": "refinedstorage:grid",
+    "pages": [
+        {
+            "type": "text",
+            "text": "book.refinedstorage.entry.grids.about.line0"
+        },
+        {
+            "type": "crafting",
+            "recipe": "refinedstorage:grid"
+        }
+    ],
+    "extra_recipe_mappings": {
+        "refinedstorage:black_grid": 0,
+        "refinedstorage:blue_grid": 0,
+        "refinedstorage:brown_grid": 0,
+        "refinedstorage:cyan_grid": 0,
+        "refinedstorage:gray_grid": 0,
+        "refinedstorage:green_grid": 0,
+        "refinedstorage:light_gray_grid": 0,
+        "refinedstorage:lime_grid": 0,
+        "refinedstorage:magenta_grid": 0,
+        "refinedstorage:orange_grid": 0,
+        "refinedstorage:pink_grid": 0,
+        "refinedstorage:purple_grid": 0,
+        "refinedstorage:red_grid": 0,
+        "refinedstorage:white_grid": 0,
+        "refinedstorage:yellow_grid": 0
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "name": "book.refinedstorage.entry.networking.controllers.title",
+    "category": "patchouli:networking",
+    "icon": "refinedstorage:controller",
+    "pages": [
+        {
+            "type": "text",
+            "text": "book.refinedstorage.entry.networking.controllers.line0"
+        },
+        {
+            "type": "crafting",
+            "recipe": "refinedstorage:controller"
+        },
+        {
+            "type": "text",
+            "text": "book.refinedstorage.entry.networking.controllers.line1"
+        },
+        {
+            "type": "text",
+            "text": "book.refinedstorage.entry.networking.controllers.line2"
+        }
+    ],
+    "extra_recipe_mappings": {
+        "refinedstorage:black_controller": 0,
+        "refinedstorage:black_creative_controller": 0,
+        "refinedstorage:blue_controller": 0,
+        "refinedstorage:blue_creative_controller": 0,
+        "refinedstorage:brown_controller": 0,
+        "refinedstorage:brown_creative_controller": 0,
+        "refinedstorage:creative_controller": 0,
+        "refinedstorage:cyan_controller": 0,
+        "refinedstorage:cyan_creative_controller": 0,
+        "refinedstorage:gray_controller": 0,
+        "refinedstorage:gray_creative_controller": 0,
+        "refinedstorage:green_controller": 0,
+        "refinedstorage:green_creative_controller": 0,
+        "refinedstorage:light_gray_controller": 0,
+        "refinedstorage:light_gray_creative_controller": 0,
+        "refinedstorage:lime_controller": 0,
+        "refinedstorage:lime_creative_controller": 0,
+        "refinedstorage:magenta_controller": 0,
+        "refinedstorage:magenta_creative_controller": 0,
+        "refinedstorage:orange_controller": 0,
+        "refinedstorage:orange_creative_controller": 0,
+        "refinedstorage:pink_controller": 0,
+        "refinedstorage:pink_creative_controller": 0,
+        "refinedstorage:purple_controller": 0,
+        "refinedstorage:purple_creative_controller": 0,
+        "refinedstorage:red_controller": 0,
+        "refinedstorage:red_creative_controller": 0,
+        "refinedstorage:white_controller": 0,
+        "refinedstorage:white_creative_controller": 0,
+        "refinedstorage:yellow_controller": 0,
+        "refinedstorage:yellow_creative_controller": 0
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "itemGroup.refinedstorage.general",
+    "landing_text": "book.refinedstorage.landing_text",
+    "model": "refinedstorage:book",
+    "creative_tab": "refinedstorage.general",
+    "book_texture": "refinedstorage:textures/gui/book.png",
+    "crafting_texture": "refinedstorage:textures/gui/crafting.png",
+    "show_progress": false,
+    "version": 0,
+    "subtitle": "MC1.16.x",
+    "i18n": true,
+    "text_color": "FFFFFF",
+    "header_color": "FFFFFF",
+    "nameplate_color": "29f7ff",
+    "link_color": "29f7ff",
+    "link_hover_color": "16B7BC",
+    "macros": {
+        "$(h)": "$(#29f7ff)"
+    }
+}
