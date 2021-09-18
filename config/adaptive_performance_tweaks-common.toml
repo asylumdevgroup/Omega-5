@@ -345,6 +345,25 @@
 		#Range: 1 ~ 512
 		modWhisperwoodsMaxBossesPerWorld = 4
 
+	[Mod."The Farlanders"]
+		modTheFarlandersEnabled = true
+		#Range: 1 ~ 64
+		modTheFarlandersMaxPassiveMobsPerPlayer = 4
+		#Range: 1 ~ 512
+		modTheFarlandersMaxPassiveMobsPerWorld = 16
+		#Range: 1 ~ 64
+		modTheFarlandersMaxNeutralMobsPerPlayer = 2
+		#Range: 1 ~ 512
+		modTheFarlandersMaxNeutralMobsPerWorld = 16
+		#Range: 1 ~ 64
+		modTheFarlandersMaxHostileMobsPerPlayer = 2
+		#Range: 1 ~ 512
+		modTheFarlandersMaxHostileMobsPerWorld = 16
+		#Range: 1 ~ 64
+		modTheFarlandersMaxBossesPerPlayer = 2
+		#Range: 1 ~ 512
+		modTheFarlandersMaxBossesPerWorld = 4
+
 [Experimental]
 	#Burn Crepper during day light.
 	burnCreeperDuringDaylight = false

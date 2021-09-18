@@ -33,3 +33,7 @@
 	#The byproduct material to output in WTBW Machines' Crusher.
 	byproduct = "minecraft:cobblestone"
 
+[molten]
+	#The temperature of this molten fluid.
+	temperature = 1000
+

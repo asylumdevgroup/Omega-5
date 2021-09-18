@@ -4,7 +4,7 @@
 	"Mods Carryover Folder" = "mods-carryover"
 	#Each string entry should specify a target file, followed by a pipe, followed by a config value to assign.
 	#Example: "options.txt|renderDistance:10"
-	"Options Enforcement" = ["options.txt|mipmapLevels:0"]
+	"Options Enforcement" = ["options.txt|mipmapLevels:4"]
 	#Reloads your Resource Packs at the main menu screen if they have changed as a result of Options Enforcement values
 	"Reload Resource Packs On Changed" = true
 	#If true, crashes the game with a ModsCopiedException if any files were copied to the mods folder from the folder specified in "Mods Carryover Folder", so that you can restart the game and load those mods faster than waiting until the main menu. If false, you'll instead get a reminder to restart right before the main menu.
