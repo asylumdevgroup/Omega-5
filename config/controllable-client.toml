@@ -18,7 +18,7 @@
 		#If enabled, hotbar will render closer to the center of the screen like on console.
 		consoleHotbar = false
 		#The image to use for the cursor. This only applies if virtual mouse is enabled!
-		#Allowed Values: LIGHT, DARK, CONSOLE
+		#Allowed Values: LIGHT, DARK, CONSOLE, LEGACY_LIGHT, LEGACY_DARK
 		cursorType = "LIGHT"
 		#The controller icons to use in game to display actions
 		#Allowed Values: DEFAULT, PLAYSTATION_4, PLAYSTATION_3, XBOX_ONE, XBOX_360, SWITCH_JOYCONS, SWITCH_CONTROLLER, GAMECUBE, STEAM
