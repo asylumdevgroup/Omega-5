@@ -2,3 +2,7 @@ logs/
 mods/
 server/
 config/eula.txt
+config/oauth.cfg
+.ReAuth.cfg
+.DS_Store
+buildOut/

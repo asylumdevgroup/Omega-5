@@ -13,6 +13,8 @@
 	optimizeHostileMobs = true
 	#Enable/Disable boss mobs optimization depending on the server load.
 	optimizeBossMobs = true
+	#Enable/Disable general mobs optimization depending on the server load.
+	optimizeGeneralMobs = true
 
 [Items]
 	#Enable/Disable items optimization.
@@ -247,7 +249,6 @@
 		modQuarkMaxHostileMobsPerWorld = 16
 
 	[Mod.Rats]
-		" modRatsEnabled" = true
 		#Range: 1 ~ 64
 		modRatsMaxPassiveMobsPerPlayer = 4
 		#Range: 1 ~ 512
@@ -260,6 +261,7 @@
 		modRatsMaxBossesPerPlayer = 2
 		#Range: 1 ~ 512
 		modRatsMaxBossesPerWorld = 8
+		modRatsEnabled = true
 
 	[Mod."Savage & Ravage"]
 		modSavageandravageEnabled = true
@@ -363,6 +365,21 @@
 		modTheFarlandersMaxBossesPerPlayer = 2
 		#Range: 1 ~ 512
 		modTheFarlandersMaxBossesPerWorld = 4
+
+	[Mod.Twist]
+		modTwistEnabled = true
+		#Range: 1 ~ 64
+		modTwistMaxPassiveMobsPerPlayer = 2
+		#Range: 1 ~ 512
+		modTwistMaxPassiveMobsPerWorld = 16
+		#Range: 1 ~ 64
+		modTwistMaxNeutralMobsPerPlayer = 2
+		#Range: 1 ~ 512
+		modTwistMaxNeutralMobsPerWorld = 16
+		#Range: 1 ~ 64
+		modTwistMaxHostileMobsPerPlayer = 2
+		#Range: 1 ~ 512
+		modTwistMaxHostileMobsPerWorld = 16
 
 [Experimental]
 	#Burn Crepper during day light.
