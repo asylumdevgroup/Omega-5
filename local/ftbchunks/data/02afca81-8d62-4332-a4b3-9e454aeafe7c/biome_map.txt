@@ -5,12 +5,15 @@
 #109 minecraft:deep_cold_ocean
 #3DE minecraft:deep_ocean
 #074 byg:ebony_woods
+#010 minecraft:forest
 #292 minecraft:frozen_ocean
 #0E6 minecraft:giant_spruce_taiga
 #042 minecraft:giant_tree_taiga
 #655 minecraft:giant_tree_taiga_hills
 #4F1 minecraft:ocean
 #5FF minecraft:river
+#5ED byg:seasonal_birch_forest
+#3A8 byg:seasonal_deciduous_forest
 #169 minecraft:taiga
 #63C minecraft:taiga_hills
 #7F0 minecraft:taiga_mountains

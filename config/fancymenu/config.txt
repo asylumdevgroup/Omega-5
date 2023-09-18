@@ -60,10 +60,7 @@ B:showvanillamovewarning = 'true';
 
 ##[ui]
 
-<<<<<<< Updated upstream
-=======
 B:show_unicode_warning = 'true';
->>>>>>> Stashed changes
 F:uiscale = '1.0';
 
 
@@ -72,15 +69,11 @@ F:uiscale = '1.0';
 B:show_server_icons = 'true';
 
 
-##[singleplayer_screen]
-
-<<<<<<< Updated upstream
-B:show_world_icons = 'true';
-=======
-B:show_world_icons = 'true';
-
-
 ##[compatibility]
 
 B:allow_level_registry_interactions = 'true';
->>>>>>> Stashed changes
+
+
+##[singleplayer_screen]
+
+B:show_world_icons = 'true';

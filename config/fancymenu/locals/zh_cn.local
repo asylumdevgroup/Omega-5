@@ -735,8 +735,6 @@ fancymenu.helper.creator.backgroundoptions.backgroundanimation.set = 设置背�
 fancymenu.helper.creator.backgroundoptions.backgroundanimation.set.desc = 将选中的动画设置为启用的背景动画。
 fancymenu.helper.creator.backgroundoptions.backgroundanimation.clear = 清除
 fancymenu.helper.creator.backgroundoptions.backgroundanimation.clear.desc = 将选中的动画从启用的背景动画中移除。
-<<<<<<< Updated upstream
-=======
 
 fancymenu.helper.editor.items.buttons.buttonbackground = 按钮背景
 fancymenu.helper.editor.items.buttons.buttonbackground.normalbackground = 按钮正常背景
@@ -783,4 +781,3 @@ fancymenu.helper.editor.items.visibilityrequirements.realtimeminute.valuename = 
 fancymenu.helper.editor.items.visibilityrequirements.realtimesecond = 现在的时间的秒数是否为
 fancymenu.helper.editor.items.visibilityrequirements.realtimesecond.desc = 检查现在的秒数是否为 X.%n%%n%你可以用逗号分隔多个数字,%n%用来一次检查多个%n%秒数.
 fancymenu.helper.editor.items.visibilityrequirements.realtimesecond.valuename = 真实事件秒数 (用逗号分隔)
->>>>>>> Stashed changes

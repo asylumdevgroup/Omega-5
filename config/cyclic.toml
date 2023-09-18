@@ -322,8 +322,6 @@
 			#Range: 1 ~ 99
 			range = 32
 
-<<<<<<< Updated upstream
-=======
 		#####################################################################################
 		# scythe_brush settings. note radius is halved while player is sneaking
 		#####################################################################################
@@ -380,7 +378,6 @@
 			#Range: 1 ~ 60
 			printed = 5
 
->>>>>>> Stashed changes
 	#####################################################################################
 	# Block specific configs
 	#####################################################################################
@@ -449,8 +446,6 @@
 			#Range: 1 ~ 64
 			radius = 8
 
-<<<<<<< Updated upstream
-=======
 		#battery settings
 		[cyclic.blocks.battery]
 			#RF/t charging rate for the battery item slot
@@ -472,4 +467,3 @@
 			#Range: 1.0E-5 ~ 0.999
 			chance = 0.1
 
->>>>>>> Stashed changes

@@ -1,7 +1,5 @@
 #allows the user to right click harvest crops
 rightClickHarvest = true
-<<<<<<< Updated upstream
-=======
 #allows the user to disable salt generation in the world, default is false
 disableSaltGeneration = false
 
@@ -115,5 +113,4 @@ disableSaltGeneration = false
 	#Settings for walnut_tree_configured
 	[worldGeneration.walnut_tree_configured]
 		biomes = ["byg:maple_taiga", "minecraft:dark_forest_hills", "byg:weeping_witch_forest", "minecraft:dark_forest", "byg:ebony_woods", "byg:dacite_ridges", "byg:twilight_meadow"]
->>>>>>> Stashed changes
 

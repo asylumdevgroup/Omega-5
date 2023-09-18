@@ -228,13 +228,6 @@ helper.creator.custombutton.config.actiontype.runscript.desc.value.example = coo
 
 helper.creator.rightclick.scale = Force GUI Scale
 helper.creator.rightclick.scale.invalid = §c§lInvalid Scale!%n%%n%%n%Scale values need to be bigger than 0!
-<<<<<<< Updated upstream
-
-helper.creator.custombutton.config.actiontype.mutebackgroundsounds.desc = Mutes or unmutes the menu background sounds added by FancyMenu.
-helper.creator.custombutton.config.actiontype.mutebackgroundsounds.desc.value = true/false
-helper.creator.custombutton.config.actiontype.mutebackgroundsounds.desc.value.example = true
-=======
->>>>>>> Stashed changes
 
 helper.creator.items.button.resetlabel = Reset Label
 
@@ -666,10 +659,6 @@ fancymenu.helper.editor.items.visibilityrequirements.showif = Show If
 fancymenu.helper.editor.items.visibilityrequirements.showif.btn.desc = Show element if condition is met.
 fancymenu.helper.editor.items.visibilityrequirements.showifnot = Show If Not
 fancymenu.helper.editor.items.visibilityrequirements.showifnot.btn.desc = Show element if condition is NOT met.
-<<<<<<< Updated upstream
-fancymenu.helper.editor.items.visibilityrequirements.requirement = Requirement
-=======
->>>>>>> Stashed changes
 
 fancymenu.helper.editor.items.visibilityrequirements.singleplayer = Is Singleplayer
 fancymenu.helper.editor.items.visibilityrequirements.singleplayer.desc = Check if the user is in singleplayer.
@@ -693,21 +682,6 @@ fancymenu.helper.editor.items.visibilityrequirements.realtimesecond.desc = Check
 fancymenu.helper.editor.items.visibilityrequirements.realtimesecond.valuename = Real Time Second(s) (Separate Values By Comma)
 
 fancymenu.helper.editor.items.visibilityrequirements.windowwidth = Is Window Width
-<<<<<<< Updated upstream
-fancymenu.helper.editor.items.visibilityrequirements.windowwidth.desc = Check if the window width is X.%n%%n%You can separate multiple values by comma,%n%to check for more than one width%n%at once.
-fancymenu.helper.editor.items.visibilityrequirements.windowwidth.valuename = Window Width(s) (Separate Values By Comma)
-
-fancymenu.helper.editor.items.visibilityrequirements.windowheight = Is Window Height
-fancymenu.helper.editor.items.visibilityrequirements.windowheight.desc = Check if the window height is X.%n%%n%You can separate multiple values by comma,%n%to check for more than one height%n%at once.
-fancymenu.helper.editor.items.visibilityrequirements.windowheight.valuename = Window Height(s) (Separate Values By Comma)
-
-fancymenu.helper.editor.items.visibilityrequirements.windowwidthbiggerthan = Is Window Width Bigger Than
-fancymenu.helper.editor.items.visibilityrequirements.windowwidthbiggerthan.desc = Check if the window width is bigger than X.
-fancymenu.helper.editor.items.visibilityrequirements.windowwidthbiggerthan.valuename = Window Width
-
-fancymenu.helper.editor.items.visibilityrequirements.windowheightbiggerthan = Is Window Height Bigger Than
-fancymenu.helper.editor.items.visibilityrequirements.windowheightbiggerthan.desc = Check if the window height is bigger than X.
-=======
 fancymenu.helper.editor.items.visibilityrequirements.windowwidth.desc = Check if the window width is X.%n%%n%§cCurrent Width: {}%n%§cCurrent Height: {}
 fancymenu.helper.editor.items.visibilityrequirements.windowwidth.valuename = Window Width
 
@@ -721,7 +695,6 @@ fancymenu.helper.editor.items.visibilityrequirements.windowwidthbiggerthan.value
 
 fancymenu.helper.editor.items.visibilityrequirements.windowheightbiggerthan = Is Window Height Bigger Than
 fancymenu.helper.editor.items.visibilityrequirements.windowheightbiggerthan.desc = Check if the window height is bigger than X.%n%%n%§cCurrent Width: {}%n%§cCurrent Height: {}
->>>>>>> Stashed changes
 fancymenu.helper.editor.items.visibilityrequirements.windowheightbiggerthan.valuename = Window Height
 
 fancymenu.helper.editor.items.visibilityrequirements.buttonhovered = Is Button Hovered
@@ -745,13 +718,8 @@ fancymenu.helper.editor.items.visibilityrequirements.oslinux = Is OS Linux
 fancymenu.helper.editor.items.visibilityrequirements.oslinux.desc = Check if the operating system is Linux.
 
 fancymenu.helper.editor.items.visibilityrequirements.modloaded = Is Mod Loaded
-<<<<<<< Updated upstream
-fancymenu.helper.editor.items.visibilityrequirements.modloaded.desc = Check if a specific mod is loaded.%n%%n%You can separate multiple values by comma,%n%to check for more than one mod%n%at once.
-fancymenu.helper.editor.items.visibilityrequirements.modloaded.valuename = Mod ID(s) (Separate Values By Comma)
-=======
 fancymenu.helper.editor.items.visibilityrequirements.modloaded.desc = Check if a specific mod is loaded.%n%%n%You can find the mod ID in the mod menu.%n%This menu is available by default%n%on Forge. On Fabric, download%n%the 'Mod Menu' mod.
 fancymenu.helper.editor.items.visibilityrequirements.modloaded.valuename = Mod ID
->>>>>>> Stashed changes
 
 fancymenu.helper.editor.items.visibilityrequirements.serveronline = Is Server Online
 fancymenu.helper.editor.items.visibilityrequirements.serveronline.desc = Check if a specific server is online.
@@ -761,11 +729,7 @@ fancymenu.helper.editor.items.copyid = Copy Element ID
 fancymenu.helper.editor.items.copyid.btn.desc = Copy the ID of this element, to use%n%it in visibility requirements, etc.
 
 fancymenu.helper.ui.dynamicvariabletextfield.variables.local = Localize Text
-<<<<<<< Updated upstream
-fancymenu.helper.ui.dynamicvariabletextfield.variables.local.desc = Localizes a text by the given key.%n%%n%Just replace '<localization.key>' in the%n%placeholder with a localization key.%n%%n%§cCheck the wiki for how to add%n%§cyour own text localizations!%n%%n%§cWiki: fm.keksuccino.de%n%%n%§lExample:%n%%local:some.local.key%
-=======
 fancymenu.helper.ui.dynamicvariabletextfield.variables.local.desc = Localizes a text by the given key.%n%%n%Just replace 'localization.key' in the%n%placeholder with a localization key.%n%%n%§cCheck the wiki for how to add%n%§cyour own text localizations!%n%%n%§cWiki: fm.keksuccino.com
->>>>>>> Stashed changes
 
 fancymenu.config.showgrid = Show Grid
 fancymenu.config.showgrid.desc = Add a grid to the editor for easier aligning.
@@ -774,15 +738,9 @@ fancymenu.config.gridsize.desc = The inner size of one grid square.
 
 fancymenu.helper.editor.properties.scale.btn.desc = Force a GUI scale for this menu.%n%%n%This will override the scale%n%set in the Minecraft settings.%n%%n%§cOnly overrides the scale for the specific menu,%n%§cnot all menus.
 
-<<<<<<< Updated upstream
-fancymenu.helper.editor.properties.autoscale.on = Layout Auto-Scaling: §aOn
-fancymenu.helper.editor.properties.autoscale.off = Layout Auto-Scaling: §cOff
-fancymenu.helper.editor.properties.autoscale.btn.desc = Let FancyMenu handle the scale of%n%the menu, so your layout works for%n%every scale and resolution.%n%%n%§cThis will make text elements look%n%§cblurry at some scales.%n%§cThis can't be fixed and the best%n%§cworkaround is to use images%n%§cwith background as text elements.
-=======
 fancymenu.helper.editor.properties.autoscale.on = Auto-Scaling: §aOn
 fancymenu.helper.editor.properties.autoscale.off = Auto-Scaling: §cOff
 fancymenu.helper.editor.properties.autoscale.btn.desc = Let FancyMenu handle the scale of%n%the menu, so your layout%n%works for every scale and%n%resolution.%n%%n%To do this, resize the window%n%so everything looks good and%n%elements are not too far apart%n%from each other and click on%n%this button.%n%%n%§cThis will make text elements look%n%§cblurry at some scales.%n%§cThis can't be fixed and the best%n%§cworkaround is to use images%n%§cwith background as text elements.
->>>>>>> Stashed changes
 fancymenu.helper.editor.properties.autoscale.basesize.popup.desc.line1 = Here you can set the base window size of your layout.
 fancymenu.helper.editor.properties.autoscale.basesize.popup.desc.line2 = This should be the size your layout was designed for.
 fancymenu.helper.editor.properties.autoscale.basesize.popup.desc.line3 = If you made it in the current window size, just leave the values like they are.
@@ -802,20 +760,6 @@ fancymenu.helper.ui.dynamicvariabletextfield.variables.realtimeminute = Minute
 fancymenu.helper.ui.dynamicvariabletextfield.variables.realtimesecond = Second
 
 fancymenu.helper.ui.dynamicvariabletextfield.variables.servermotd = Server MOTD
-<<<<<<< Updated upstream
-fancymenu.helper.ui.dynamicvariabletextfield.variables.servermotd.desc = Gets the MOTD of a server.%n%%n%Just replace '<serverIP>' in the%n%placeholder with a valid server IP.%n%%n%§lExample:%n%%servermotd:gommehd.net%
-fancymenu.helper.ui.dynamicvariabletextfield.variables.serverping = Server PING
-fancymenu.helper.ui.dynamicvariabletextfield.variables.serverping.desc = Gets the current ping to a server.%n%%n%Just replace '<serverIP>' in the%n%placeholder with a valid server IP.%n%%n%§lExample:%n%%serverping:gommehd.net%
-fancymenu.helper.ui.dynamicvariabletextfield.variables.serverplayercount = Server Players Count
-fancymenu.helper.ui.dynamicvariabletextfield.variables.serverplayercount.desc = Gets the player count of a server.%n%%n%Just replace '<serverIP>' in the%n%placeholder with a valid server IP.%n%%n%§lExample:%n%%serverplayercount:gommehd.net%
-fancymenu.helper.ui.dynamicvariabletextfield.variables.serverstatus = Server Status
-fancymenu.helper.ui.dynamicvariabletextfield.variables.serverstatus.desc = Gets the status (online/offline) of a server.%n%%n%Just replace '<serverIP>' in the%n%placeholder with a valid server IP.%n%%n%§lExample:%n%%serverstatus:gommehd.net%
-fancymenu.helper.ui.dynamicvariabletextfield.variables.serverversion = Server Version
-fancymenu.helper.ui.dynamicvariabletextfield.variables.serverversion.desc = Gets the MC version of a server.%n%%n%Just replace '<serverIP>' in the%n%placeholder with a valid server IP.%n%%n%§lExample:%n%%serverversion:gommehd.net%
-
-fancymenu.helper.ui.dynamicvariabletextfield.variables.percentram = Currently Used RAM in %
-fancymenu.helper.ui.dynamicvariabletextfield.variables.usedram = Currently Used RAM in MB
-=======
 fancymenu.helper.ui.dynamicvariabletextfield.variables.servermotd.desc = Gets the MOTD of a server.%n%Just replace 'someserver.com:25565'%n%with the actual server IP%n%and '1' with the MOTD line.%n%MOTDs only have 2 lines, so%n%the only valid line values are%n%'1' and '2'.
 fancymenu.helper.ui.dynamicvariabletextfield.variables.serverping = Server PING
 fancymenu.helper.ui.dynamicvariabletextfield.variables.serverping.desc = Gets the ping to a server.%n%%n%Just replace 'someserver.com:25565' in the%n%placeholder with a valid server IP.
@@ -828,7 +772,6 @@ fancymenu.helper.ui.dynamicvariabletextfield.variables.serverversion.desc = Gets
 
 fancymenu.helper.ui.dynamicvariabletextfield.variables.percentram = Used RAM in %
 fancymenu.helper.ui.dynamicvariabletextfield.variables.usedram = Used RAM in MB
->>>>>>> Stashed changes
 fancymenu.helper.ui.dynamicvariabletextfield.variables.maxram = Max RAM in MB
 
 fancymenu.helper.editor.layoutoptions.backgroundoptions.setbackground = Set Background
@@ -896,23 +839,14 @@ helper.creator.custombutton.config.actiontype.copytoclipboard.desc.value.example
 fancymenu.config.forcefullscreen = Force Fullscreen
 fancymenu.config.forcefullscreen.desc = Forces the window to fullscreen on start.%n%Users will still be able to%n%go out of fullscreen later.
 
-<<<<<<< Updated upstream
-helper.creator.custombutton.config.actiontype.mimicbutton.desc = Execute the button action of a vanilla button.
-helper.creator.custombutton.config.actiontype.mimicbutton.desc.value = menu_identifier:button_id
-=======
 helper.creator.custombutton.config.actiontype.mimicbutton.desc = Mimic the click behaviour/action%n%of a vanilla/mod button.%n%%n%You need the §lbutton locator §rof%n%the button you want to mimic.%n%%n%How to get the §llocator §rof a button:%n%%n%§l1. §rLeave the editor%n%§l2. §rEnable §lTools -> Button Info%n%§l3. §rHover over the target button%n%§l4. §rRight-click the button
 helper.creator.custombutton.config.actiontype.mimicbutton.desc.value = Button Locator
->>>>>>> Stashed changes
 helper.creator.custombutton.config.actiontype.mimicbutton.desc.value.example = some.menu.identifier:505280
 
 fancymenu.custombutton.action.mimicbutton.unabletoexecute = §c§lError!%n%%n%Unable to execute button action!%n%%n%Invalid button locator or unable to%n%open parent screen of button.%n% %n% %n% %n%
 
 fancymenu.helper.ui.dynamicvariabletextfield.variables.vanillabuttonlabel = Vanilla Button Label
-<<<<<<< Updated upstream
-fancymenu.helper.ui.dynamicvariabletextfield.variables.vanillabuttonlabel.desc = Get the label of a vanilla button.%n%%n%§cReplace "<button_locator>" with%n%§cthe correct button locator%n%§cof the target button.%n%%n%The button locator is a combination%n%of the menu identifier of the menu%n%the button is in and the %n%ID of the button, separated%n%by a colon.%n%%n%Example Button Locator:%n%some.menu.identifier:505280
-=======
 fancymenu.helper.ui.dynamicvariabletextfield.variables.vanillabuttonlabel.desc = Get the label of a vanilla button.%n%%n%Replace 'some.menu.identifier:505280' with%n%the correct button locator%n%of the target button.%n%%n%The button locator is a combination%n%of the menu identifier of the menu%n%the button is in and the %n%ID of the button, separated%n%by a colon.%n%%n%§cYou can right-click a button%n%§cin the editor to copy its locator.
->>>>>>> Stashed changes
 
 fancymenu.helper.editor.windowsizerestrictions.reset = Reset Window Size Restrictions
 fancymenu.helper.editor.windowsizerestrictions.reset.btn.desc = Reset/remove all window size restrictions.
@@ -926,47 +860,26 @@ fancymenu.config.show_server_icons.desc = If the server icons should be visible.
 fancymenu.config.show_world_icons = Show World Icons
 fancymenu.config.show_world_icons.desc = If the world icons should be visible.
 
-<<<<<<< Updated upstream
-fancymenu.helper.ui.dynamicvariabletextfield.variables.servermotd_line1 = Server MOTD Line 1
-fancymenu.helper.ui.dynamicvariabletextfield.variables.servermotd_line1.desc = Gets the first line of the MOTD of a server.%n%%n%Just replace '<serverIP>' in the%n%placeholder with a valid server IP.%n%%n%§lExample:%n%%servermotd_line1:gommehd.net%
-fancymenu.helper.ui.dynamicvariabletextfield.variables.servermotd_line2 = Server MOTD Line 2
-fancymenu.helper.ui.dynamicvariabletextfield.variables.servermotd_line2.desc = Gets the second line of the MOTD of a server.%n%%n%Just replace '<serverIP>' in the%n%placeholder with a valid server IP.%n%%n%§lExample:%n%%servermotd_line2:gommehd.net%
-
-=======
->>>>>>> Stashed changes
 fancymenu.helper.ui.tools.buttoninfo.enablecustomizations = §cYou need to enable customizations%n%§cfor the current menu, to use this tool!
 fancymenu.helper.ui.tools.buttoninfo.enablecustomizations.cursorwarning.line1 = §lWarning!
 fancymenu.helper.ui.tools.buttoninfo.enablecustomizations.cursorwarning.line2 = You need to enable customizations for
 fancymenu.helper.ui.tools.buttoninfo.enablecustomizations.cursorwarning.line3 = the current menu before using the §lButton Info §rtool!
 
 fancymenu.helper.editor.items.visibilityrequirements.guiscale = Is GUI Scale
-<<<<<<< Updated upstream
-fancymenu.helper.editor.items.visibilityrequirements.guiscale.desc = Check if the current GUI scale is X.%n%%n%You can check for bigger than ('>'),%n%smaller than ('<') and equals X.%n%%n%For example, if you want to check%n%if the scale is smaller than 3.20,%n%type '<3.20' (without the '').%n%To check if the scale is equal to 1.0,%n%just type '1.0' (without the '').%n%When checking if the scale is bigger than 2.20,%n%type '>2.20' (without the '').%n%%n%You can separate multiple values by comma,%n%to check for more than one scale%n%at once.
-fancymenu.helper.editor.items.visibilityrequirements.guiscale.valuename = GUI Scale Condition(s) (Separate Values By Comma)
-=======
 fancymenu.helper.editor.items.visibilityrequirements.guiscale.desc = Check if the current GUI scale is X.%n%%n%You can check for bigger than ('>'),%n%smaller than ('<') and equals X.%n%%n%For example, if you want to check%n%if the scale is smaller than 3.20,%n%type '<3.20' (without the '').%n%To check if the scale is equal to 1.0,%n%just type '1.0' (without the '').%n%When checking if the scale is bigger than 2.20,%n%type '>2.20' (without the '').
 fancymenu.helper.editor.items.visibilityrequirements.guiscale.valuename = GUI Scale Condition
->>>>>>> Stashed changes
 
 fancymenu.helper.editor.backgrounds.choose = Choose Background
 
 fancymenu.helper.editor.backgrounds.image.desc = A static image.%n%%n%Only JPG/JPEG and PNG are supported.
-<<<<<<< Updated upstream
-fancymenu.helper.editor.backgrounds.animation.desc = An animation. Like a video, but not, you know?%n%%n%Please visit the wiki (fm.keksuccino.de)%n%for how to make your own animations.
-fancymenu.helper.editor.backgrounds.panorama.desc = A spinning cubic panorama like%n%the one in the vanilla main menu.%n%%n%Please visit the wiki (fm.keksuccino.de)%n%for how to make your own panoramas.
-fancymenu.helper.editor.backgrounds.slideshow.desc = A slideshow that shows a set of images.%n%%n%Please visit the wiki (fm.keksuccino.de)%n%for how to make your own slideshows.
-=======
 fancymenu.helper.editor.backgrounds.animation.desc = An animation. Like a video, but not, you know?%n%%n%Please visit the wiki (fm.keksuccino.com)%n%for how to make your own animations.
 fancymenu.helper.editor.backgrounds.panorama.desc = A spinning cubic panorama like%n%the one in the vanilla main menu.%n%%n%Please visit the wiki (fm.keksuccino.com)%n%for how to make your own panoramas.
 fancymenu.helper.editor.backgrounds.slideshow.desc = A slideshow that shows a set of images.%n%%n%Please visit the wiki (fm.keksuccino.com)%n%for how to make your own slideshows.
->>>>>>> Stashed changes
 
 fancymenu.helper.editor.backgrounds.custom.choosefile = Choose File
 fancymenu.helper.editor.backgrounds.custom.setbackground = Set Background
 fancymenu.helper.editor.backgrounds.custom.clearbackground = Clear
 fancymenu.helper.editor.backgrounds.custom.clearbackground.desc = Clear the currently active background of this type.
-<<<<<<< Updated upstream
-=======
 
 fancymenu.helper.editor.extension.dummy.audio.btn.desc = §6You need to install the%n%§6§lAudio Extension §r§6to use this%n%§6element.%n%%n%§cClick on the button to%n%§copen the download page.
 fancymenu.helper.editor.extension.dummy.audio.manageaudio.btn.desc = §c§lDEPRECATED!%n%%n%§cThis is part of the old%n%§caudio system and gets removed%n%§cvery soon!%n%%n%§cFor more information, read%n%§cthe tooltip of the button%n%§cto add a new audio element.
@@ -1462,6 +1375,5 @@ fancymenu.guicomponents.confirm = Confirm
 
 
 
->>>>>>> Stashed changes
 
 
