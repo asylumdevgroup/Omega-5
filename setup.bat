@@ -2,11 +2,11 @@
 
 type NUL > .git/hooks/post-merge
 echo #!/bin/sh > .git/hooks/post-merge
-echo java -jar ModpackDownloader-cli-0.6.1.jar >> .git/hooks/post-merge
+echo java -jar InstanceSync.jar >> .git/hooks/post-merge
 
 echo Done setting up hooks
-echo Running Modpack Downloader
+echo Running InstanceSync
 
-java -jar ModpackDownloader-cli-0.6.1.jar
+java -jar InstanceSync.jar
 
 pause

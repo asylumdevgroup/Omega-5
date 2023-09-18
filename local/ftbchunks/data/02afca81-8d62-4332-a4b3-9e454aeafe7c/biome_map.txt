@@ -1,0 +1,17 @@
+#290 byg:bayou
+#556 minecraft:beach
+#461 byg:blue_taiga
+#3D6 minecraft:cold_ocean
+#109 minecraft:deep_cold_ocean
+#3DE minecraft:deep_ocean
+#074 byg:ebony_woods
+#292 minecraft:frozen_ocean
+#0E6 minecraft:giant_spruce_taiga
+#042 minecraft:giant_tree_taiga
+#655 minecraft:giant_tree_taiga_hills
+#4F1 minecraft:ocean
+#5FF minecraft:river
+#169 minecraft:taiga
+#63C minecraft:taiga_hills
+#7F0 minecraft:taiga_mountains
+#473 byg:vibrant_swamplands

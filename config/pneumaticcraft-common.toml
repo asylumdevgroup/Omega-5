@@ -35,8 +35,11 @@
 	drones_can_be_picked_up = false
 	#Show particle trail indicating the currently-debugged drone's planned path
 	drone_debugger_path_particles = true
+<<<<<<< Updated upstream
 	#Blacklisted entity type ID's or tags (use '#' prefix), which the Vacuum Trap will not try to absorb. Note that players, tamed entities, boss entities, and PneumaticCraft drones may never be absorbed, regardless of config settings.
 	vacuum_trap_blacklist = []
+=======
+>>>>>>> Stashed changes
 	#Cooldown, in ticks, between subsequent uses of Bandages. Set to 0 to disable cooldowns entirely.
 	#Range: > 0
 	bandage_cooldown = 160
@@ -149,6 +152,11 @@
 	#If a Drone has found a path, but gets stuck on a block along that path, it will teleport to its destination after this many ticks of being stuck. Set this to 0 to disable teleporting, which will likely leave the drone waiting there forever (or until it runs out of air). Note that getting stuck on a block is usually the fault of the mod that added the block (especially if the block has a non-full-cube shape), but if you encounter this behaviour, please report it as a PneumaticCraft: Repressurized issue so it can be investigated.
 	#Range: > 0
 	stuck_drone_teleport_ticks = 20
+<<<<<<< Updated upstream
+=======
+	#When set to true, server will strip NBT data from pressurizable items (pneumatic armor, drones...) which the client doesn't care about. Good for saving on network chatter, but can cause players to be kicked under some circumstances. If this occurs, set this config value to false.
+	nbt_to_client_modification = true
+>>>>>>> Stashed changes
 
 ["Micromissile Properties"]
 	#Base explosion damage (modified by missile setup)

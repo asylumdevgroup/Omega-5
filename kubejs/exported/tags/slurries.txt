@@ -1,4 +1,76 @@
-To refresh this file, delete it and run /reload command again! Last updated: Aug 15, 2021 10:08:06 PM
+To refresh this file, delete it and run /reload command again! Last updated: Dec 26, 2021 7:12:37 PM
+
+#mekanism:dirty/nickel
+- jaopca:mekanism_dirty.nickel
+
+#mekanism:clean/silicon
+- jaopca:mekanism_clean.silicon
+
+#mekanism:clean/draconium
+- jaopca:mekanism_clean.draconium
+
+#mekanism:clean/aluminum
+- jaopca:mekanism_clean.aluminum
+
+#mekanism:clean/azure_silver
+- jaopca:mekanism_clean.azure_silver
+
+#mekanism:clean/zinc
+- jaopca:mekanism_clean.zinc
+
+#mekanism:dirty/aluminum
+- jaopca:mekanism_dirty.aluminum
+
+#mekanism:dirty/naquadah
+- jaopca:mekanism_dirty.naquadah
+
+#mekanism:clean/naquadah
+- jaopca:mekanism_clean.naquadah
+
+#mekanism:clean/ardite
+- jaopca:mekanism_clean.ardite
+
+#mekanism:dirty/knightmetal
+- jaopca:mekanism_dirty.knightmetal
+
+#mekanism:dirty/nebu
+- jaopca:mekanism_dirty.nebu
+
+#mekanism:dirty/quicksilver
+- jaopca:mekanism_dirty.quicksilver
+
+#mekanism:dirty/bismuth
+- jaopca:mekanism_dirty.bismuth
+
+#mekanism:clean/nickel
+- jaopca:mekanism_clean.nickel
+
+#mekanism:dirty/crimson_iron
+- jaopca:mekanism_dirty.crimson_iron
+
+#mekanism:clean/thallasium
+- jaopca:mekanism_clean.thallasium
+
+#mekanism:clean/oratchalcum
+- jaopca:mekanism_clean.oratchalcum
+
+#mekanism:clean/magnesium
+- jaopca:mekanism_clean.magnesium
+
+#mekanism:dirty/cobalt
+- jaopca:mekanism_dirty.cobalt
+
+#mekanism:dirty/silicon
+- jaopca:mekanism_dirty.silicon
+
+#mekanism:clean/nebu
+- jaopca:mekanism_clean.nebu
+
+#mekanism:dirty/zinc
+- jaopca:mekanism_dirty.zinc
+
+#mekanism:dirty/ironwood
+- jaopca:mekanism_dirty.ironwood
 
 #mekanism:dirty
 - mekanism:dirty_iron
@@ -8,6 +80,49 @@ To refresh this file, delete it and run /reload command again! Last updated: Aug
 - mekanism:dirty_tin
 - mekanism:dirty_lead
 - mekanism:dirty_uranium
+- jaopca:mekanism_dirty.aluminum
+- jaopca:mekanism_dirty.ardite
+- jaopca:mekanism_dirty.azure_silver
+- jaopca:mekanism_dirty.bismuth
+- jaopca:mekanism_dirty.cobalt
+- jaopca:mekanism_dirty.crimson_iron
+- jaopca:mekanism_dirty.desh
+- jaopca:mekanism_dirty.draconium
+- jaopca:mekanism_dirty.iesnium
+- jaopca:mekanism_dirty.iridium
+- jaopca:mekanism_dirty.ironwood
+- jaopca:mekanism_dirty.knightmetal
+- jaopca:mekanism_dirty.magnesium
+- jaopca:mekanism_dirty.mithril
+- jaopca:mekanism_dirty.naquadah
+- jaopca:mekanism_dirty.nebu
+- jaopca:mekanism_dirty.nickel
+- jaopca:mekanism_dirty.oratchalcum
+- jaopca:mekanism_dirty.platinum
+- jaopca:mekanism_dirty.quicksilver
+- jaopca:mekanism_dirty.silicon
+- jaopca:mekanism_dirty.silver
+- jaopca:mekanism_dirty.thallasium
+- jaopca:mekanism_dirty.tungsten
+- jaopca:mekanism_dirty.zinc
+
+#mekanism:clean/knightmetal
+- jaopca:mekanism_clean.knightmetal
+
+#mekanism:clean/bismuth
+- jaopca:mekanism_clean.bismuth
+
+#mekanism:dirty/desh
+- jaopca:mekanism_dirty.desh
+
+#mekanism:clean/quicksilver
+- jaopca:mekanism_clean.quicksilver
+
+#mekanism:clean/iridium
+- jaopca:mekanism_clean.iridium
+
+#mekanism:clean/cobalt
+- jaopca:mekanism_clean.cobalt
 
 #mekanism:clean
 - mekanism:clean_iron
@@ -17,3 +132,88 @@ To refresh this file, delete it and run /reload command again! Last updated: Aug
 - mekanism:clean_tin
 - mekanism:clean_lead
 - mekanism:clean_uranium
+- jaopca:mekanism_clean.aluminum
+- jaopca:mekanism_clean.ardite
+- jaopca:mekanism_clean.azure_silver
+- jaopca:mekanism_clean.bismuth
+- jaopca:mekanism_clean.cobalt
+- jaopca:mekanism_clean.crimson_iron
+- jaopca:mekanism_clean.desh
+- jaopca:mekanism_clean.draconium
+- jaopca:mekanism_clean.iesnium
+- jaopca:mekanism_clean.iridium
+- jaopca:mekanism_clean.ironwood
+- jaopca:mekanism_clean.knightmetal
+- jaopca:mekanism_clean.magnesium
+- jaopca:mekanism_clean.mithril
+- jaopca:mekanism_clean.naquadah
+- jaopca:mekanism_clean.nebu
+- jaopca:mekanism_clean.nickel
+- jaopca:mekanism_clean.oratchalcum
+- jaopca:mekanism_clean.platinum
+- jaopca:mekanism_clean.quicksilver
+- jaopca:mekanism_clean.silicon
+- jaopca:mekanism_clean.silver
+- jaopca:mekanism_clean.thallasium
+- jaopca:mekanism_clean.tungsten
+- jaopca:mekanism_clean.zinc
+
+#mekanism:dirty/tungsten
+- jaopca:mekanism_dirty.tungsten
+
+#mekanism:clean/crimson_iron
+- jaopca:mekanism_clean.crimson_iron
+
+#mekanism:dirty/silver
+- jaopca:mekanism_dirty.silver
+
+#mekanism:dirty/azure_silver
+- jaopca:mekanism_dirty.azure_silver
+
+#mekanism:dirty/thallasium
+- jaopca:mekanism_dirty.thallasium
+
+#mekanism:dirty/iridium
+- jaopca:mekanism_dirty.iridium
+
+#mekanism:clean/tungsten
+- jaopca:mekanism_clean.tungsten
+
+#mekanism:dirty/draconium
+- jaopca:mekanism_dirty.draconium
+
+#mekanism:clean/ironwood
+- jaopca:mekanism_clean.ironwood
+
+#mekanism:dirty/iesnium
+- jaopca:mekanism_dirty.iesnium
+
+#mekanism:clean/platinum
+- jaopca:mekanism_clean.platinum
+
+#mekanism:dirty/ardite
+- jaopca:mekanism_dirty.ardite
+
+#mekanism:clean/mithril
+- jaopca:mekanism_clean.mithril
+
+#mekanism:dirty/oratchalcum
+- jaopca:mekanism_dirty.oratchalcum
+
+#mekanism:clean/desh
+- jaopca:mekanism_clean.desh
+
+#mekanism:clean/iesnium
+- jaopca:mekanism_clean.iesnium
+
+#mekanism:dirty/mithril
+- jaopca:mekanism_dirty.mithril
+
+#mekanism:dirty/platinum
+- jaopca:mekanism_dirty.platinum
+
+#mekanism:dirty/magnesium
+- jaopca:mekanism_dirty.magnesium
+
+#mekanism:clean/silver
+- jaopca:mekanism_clean.silver

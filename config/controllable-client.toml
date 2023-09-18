@@ -44,4 +44,13 @@
 		#The thumbstick to use when scrolling items in the radial menu
 		#Allowed Values: LEFT, RIGHT
 		radialThumbstick = "RIGHT"
+		#The behaviour to use for sneaking. Toggle means to press once to sneak then press again to stand again. Hold means you must hold the sneak button and releasing will make the player stand again.
+		#Allowed Values: TOGGLE, HOLD
+		sneakMode = "TOGGLE"
+		#The thumbstick that controls moving the cursor
+		#Allowed Values: LEFT, RIGHT
+		cursorThumbstick = "LEFT"
+		#The scale of the mouse speed when hovering a widget or item slot
+		#Range: 0.05 ~ 1.0
+		hoverModifier = 0.6
 
