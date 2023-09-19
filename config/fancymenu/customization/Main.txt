@@ -14,7 +14,12 @@ customization {
 }
 
 customization {
-  identifier = %id=400322%
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = mid-centered
   x = -100
   action = movebutton
@@ -22,26 +27,28 @@ customization {
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   width = 200
   action = resizebutton
   height = 25
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
   backgroundhovered = openloader/resources/mainmenu/long_button_highlighted.png
   backgroundnormal = openloader/resources/mainmenu/long_button.png
 }
 
 customization {
-  identifier = %id=604382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   action = hidebutton
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = mid-centered
   x = -99
   action = movebutton
@@ -49,21 +56,23 @@ customization {
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   width = 98
   action = resizebutton
   height = 25
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
   backgroundhovered = openloader/resources/mainmenu/button_highlighted.png
   backgroundnormal = openloader/resources/mainmenu/button.png
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-centered
   x = 1
   action = movebutton
@@ -71,26 +80,28 @@ customization {
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   width = 98
   action = resizebutton
   height = 26
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
   backgroundhovered = openloader/resources/mainmenu/button_highlighted.png
   backgroundnormal = openloader/resources/mainmenu/button.png
 }
 
 customization {
-  identifier = %id=376382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   action = hidebutton
 }
 
 customization {
-  identifier = %id=400298%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = mid-centered
   x = -100
   action = movebutton
@@ -98,21 +109,23 @@ customization {
 }
 
 customization {
-  identifier = %id=400298%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   width = 200
   action = resizebutton
   height = 25
 }
 
 customization {
-  identifier = %id=400298%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
   backgroundhovered = openloader/resources/mainmenu/long_button_highlighted.png
   backgroundnormal = openloader/resources/mainmenu/long_button.png
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   orientation = mid-centered
   x = -100
   action = movebutton
@@ -120,42 +133,108 @@ customization {
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   width = 98
   action = resizebutton
   height = 25
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
   backgroundhovered = openloader/resources/mainmenu/button_highlighted.png
   backgroundnormal = openloader/resources/mainmenu/button.png
 }
 
 customization {
-  identifier = %id=502346%
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
   action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 186
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 77b7f5a2-07db-48f8-a5f0-e62a7c89e3631695165428201
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 122
+  action = deep_customization_element:title_screen_branding
+  actionid = ef31a42c-7ca1-4d37-b577-1215fb53a8051695165428202
+  y = 285
+  height = 50
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 411
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 55594ba2-676c-4d12-b7b4-dd79fefa15fc1695165428202
+  y = 317
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = a4db10fe-fea7-4246-a80c-fa8ae267eb641695165428202
+  y = 184
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 28cd0015-f53b-4227-b0ae-8400b75e9fac1695165428202
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = false
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = e97bb8d8-ac48-4aca-b4b9-860b66d2bb2f1695165428202
+  y = 0
+  height = 30
 }
 
 customization {
   orientation = mid-centered
-  buttonaction = openlink
-  x = 1
-  width = 98
-  actionid = 9dc95ca2-4357-4b1c-a16e-511998cacf931630964824817
-  action = addbutton
-  y = 30
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://discord.gg/MTTCeZZ%btnaction_splitter_fm%
   backgroundhovered = openloader/resources/mainmenu/button_highlighted.png
   label = Discord
+  loopbackgroundanimations = true
+  x = 1
+  width = 98
+  action = addbutton
+  actionid = 9dc95ca2-4357-4b1c-a16e-511998cacf931630964824817
+  y = 30
   backgroundnormal = openloader/resources/mainmenu/button.png
-  value = https://discord.gg/MTTCeZZ
   height = 25
-}
-
-customization {
-  identifier = %id=90%
-  action = hidebutton
 }
 
 customization {

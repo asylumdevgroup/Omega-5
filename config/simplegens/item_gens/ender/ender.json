@@ -1,0 +1,6 @@
+{
+  "bo:enabled": true,
+  "in:fe_per_tick:[10~1000]": 80,
+  "lo:fe_buffer_size:[100000~9223372036854775807]": 100000,
+  "in:modifier_slot_count:[0~9]": 0
+}
