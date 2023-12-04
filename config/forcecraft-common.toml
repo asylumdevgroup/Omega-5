@@ -24,6 +24,14 @@
 	#An additional list of tile entities the Force Furnace can NOT insert into [Syntax: modid:tile_name]
 	#Examples: "minecraft:shulker_box" would stop it inserting into shulkers
 	furnaceOutputBlacklist = [""]
+	#How many ticks in between ticking neighbour blocks [Default: 5]
+	#Range: > 0
+	timeTorchRate = 5
+	#The amount of ticks the Time Torch applies to neighbour blocks [Default: 3]
+	#Range: > 1
+	timeTorchAmount = 3
+	#Disable recovery hearts from dropping [Default: false]
+	disableRecoveryHearts = false
 
 #Fortune messages
 [fortunes]
