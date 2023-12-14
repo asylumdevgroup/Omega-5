@@ -1,0 +1,18 @@
+
+#Wesley's Roguelike Dungeons Configurations
+[common]
+	#Size of the dungeons, 0 = small | 1 = medium | 2 = large
+	#Range: 0 ~ 2
+	CFDungeonSize = 1
+	#Difficulty of the dungeons, 0 = easy | 1 = normal | 2 = hard
+	#Range: 0 ~ 2
+	CFDungeonDifficulty = 1
+	#Chance of mobs spawning with modifiers
+	#Range: 0 ~ 100
+	CFModifierChance = 1
+	#Allow for mobs to spawn with modifiers
+	CFAllowModifiers = true
+	#If the dungeon dimension timer is too fast, you can slow it down here
+	#Range: 0 ~ 200
+	CFSlowerDungeonCounter = 100
+
