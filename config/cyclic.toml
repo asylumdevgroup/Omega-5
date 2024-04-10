@@ -14,7 +14,7 @@
 		beekeeper = true
 		#Set false to disable enchantment
 		beheading = true
-		#Set false to disable enchantment
+		#Set false to disable gloom enchantment
 		curse = true
 		#Set false to disable enchantment
 		disarm = true
@@ -60,6 +60,8 @@
 		#Radius per level.  size around player to perform growth logic
 		#Range: 1 ~ 16
 		growthRadius = 2
+		#Set list of effects for Gloom enchant (cyclic:curse) to ignore and not use these
+		gloomIgnored = ["minecraft:bad_omen", "minecraft:nausea", "botania:clear"]
 
 	#####################################################################################
 	# Worldgen settings  
@@ -109,7 +111,7 @@
 			peat_fuel_enriched = 1024
 
 		#####################################################################################
-		#Energy cost for various machines, either per use of an action or per tick (twenty ticks per second).
+		#Energy cost for various machines, either per use of an action or per tick (twenty ticks per second). Setting as zero (0) lets machine run for free
 		#####################################################################################
 		[cyclic.energy.cost]
 			#Power per use disenchanter
@@ -382,6 +384,8 @@
 	# Block specific configs
 	#####################################################################################
 	[cyclic.blocks]
+		#  Allows the dimensional Transfer Nodes to cross dimensions (no chunk loading is done, you have to do that on your own); This affects blocks cyclic:wireless_energy, cyclic:wireless_item, cyclic:wireless_fluid, cyclic:wireless_transmitter; If you change it to false it will only work if the target is in the same dimension.
+		wireless_transfer_dimensional = true
 
 		#Ender shelf settings
 		[cyclic.blocks.ender_shelf]
@@ -466,4 +470,28 @@
 			#Chance to Fish from nearby water.  Smaller values is slower fish
 			#Range: 1.0E-5 ~ 0.999
 			chance = 0.1
+
+		#soundproofing settings
+		[cyclic.blocks.soundproofing]
+			#Radius of sound proofing (distance from each block that it will listen)
+			#Range: 1 ~ 16
+			radius = 6
+
+		#terra_preta settings
+		[cyclic.blocks.terra_preta]
+			#ticks between growth cycles
+			#Range: 1 ~ 10000
+			timer = 100
+			#growth height above the soil
+			#Range: 2 ~ 32
+			height = 8
+
+		#terra_glass settings
+		[cyclic.blocks.terra_glass]
+			#ticks between growth cycles
+			#Range: 1 ~ 10000
+			timer = 100
+			#growth height below the glass
+			#Range: 0 ~ 32
+			height = 8
 
